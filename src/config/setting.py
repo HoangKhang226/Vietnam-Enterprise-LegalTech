@@ -21,8 +21,8 @@ class OllamaConfig(BaseModel):
     """Configuration for the locally hosted Ollama inference server."""
 
     base_url: str = "http://localhost:11434"
-    model: str = "qwen3:8b"
-    summary_model: str = "qwen3:8b"
+    model: str = "qwen:7b"
+    summary_model: str = "qwen:7b"
     embed_model: str = "nomic-embed-text"
 
 class RagConfig(BaseModel):

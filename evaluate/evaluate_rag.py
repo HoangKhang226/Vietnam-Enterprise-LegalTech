@@ -55,27 +55,31 @@ def main():
     ground_truths = []
     contexts_list = []
     
-    print(f"🔍 Đang truy xuất tài liệu cho {len(test_data)} câu hỏi benchmark...")
-    for item in test_data:
+    print(f"🔍 Đang truy xuất tài liệu cho {len(test_data)} câu hỏi benchmark (Chạy SONG SONG)...")
+    
+    import concurrent.futures
+
+    def retrieve_for_item(item):
         q = item["query"]
         expected_ids = item["expected_doc_ids"]
-        
         # Gọi Hybrid Retriever
         nodes = vector_db.retrieve_with_rerank(q, retrieve_top_k=20, rerank_top_n=3)
-        
-        # MẸO: Đưa doc_id vào text của context để Gemini Judge có thể dễ dàng đối chiếu với ground_truth
+        # MẸO: Đưa doc_id vào text của context
         contexts = [f"Mã văn bản (Doc ID): {n.metadata.get('doc_id', 'Unknown')}\nNội dung: {n.node.text}" for n in nodes]
-        
-        questions.append(q)
-        # RAGAS 0.4.x yêu cầu reference là String (không phải list of strings)
-        # Lấy câu trả lời chi tiết (expected_answer) nếu có, nếu không thì fallback về chuỗi rỗng
         gt_string = item.get("expected_answer", f"Các mã văn bản đúng là: {', '.join(expected_ids)}")
+        return q, gt_string, contexts
+
+    # Cấu hình số luồng chạy song song (Tùy thuộc vào cấu hình Colab, ví dụ: 4)
+    MAX_WORKERS = 10
+    
+    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        results = list(executor.map(retrieve_for_item, test_data))
+        
+    for q, gt_string, contexts in results:
+        questions.append(q)
         ground_truths.append(gt_string)
         contexts_list.append(contexts)
-        
-        print(f"\n- Câu hỏi: {q}")
-        print(f"- Ground Truth: {gt_string}")
-        print(f"- Đã retrieve được {len(contexts)} chunks")
+        print(f"- Câu hỏi: {q} | Đã lấy {len(contexts)} chunks")
         
     # Prepare HuggingFace Dataset format cho Ragas 0.4.x
     data_dict = {
@@ -86,7 +90,8 @@ def main():
     dataset = Dataset.from_dict(data_dict)
     
     from ragas.run_config import RunConfig
-    run_config = RunConfig(timeout=600, max_retries=2)
+    # Cấu hình max_workers cho Ragas (Giám khảo LLM chấm điểm song song)
+    run_config = RunConfig(timeout=600, max_retries=2, max_workers=MAX_WORKERS)
     
     print("\n📊 Bắt đầu chấm điểm bằng RAGAS...")
     # Tính điểm context precision và context recall

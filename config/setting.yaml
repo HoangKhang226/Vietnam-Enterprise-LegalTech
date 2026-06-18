@@ -9,8 +9,8 @@ gemini:
 
 ollama:
   base_url: "http://localhost:11434"
-  model: "qwen3:8b"
-  summary_model: "qwen3:8b"
+  model: "qwen:7b"
+  summary_model: "qwen:7b"
   embed_model: "nomic-embed-text"
 
 rag:

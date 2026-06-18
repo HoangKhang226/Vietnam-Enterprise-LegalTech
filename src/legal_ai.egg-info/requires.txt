@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+langgraph
+qdrant-client
+rank-bm25
+streamlit
+
+[dev]
+pytest
+ruff
+black

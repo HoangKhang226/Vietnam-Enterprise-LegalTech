@@ -1,0 +1,2798 @@
+[
+  {
+    "text": "Xin chào",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chào bạn",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hello",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hi AI",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chào buổi sáng",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chào buổi chiều",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bạn có khỏe không",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bạn là ai",
+    "label": "chitchat"
+  },
+  {
+    "text": "Tên bạn là gì",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ai tạo ra bạn",
+    "label": "chitchat"
+  },
+  {
+    "text": "Cảm ơn",
+    "label": "chitchat"
+  },
+  {
+    "text": "Cám ơn nhiều nha",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thanks",
+    "label": "chitchat"
+  },
+  {
+    "text": "Tuyệt vời",
+    "label": "chitchat"
+  },
+  {
+    "text": "Giỏi quá",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ngu ngốc",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bạn thật thông minh",
+    "label": "chitchat"
+  },
+  {
+    "text": "Tạm biệt",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bye",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hẹn gặp lại",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chúc ngủ ngon",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ok",
+    "label": "chitchat"
+  },
+  {
+    "text": "Dạ vâng",
+    "label": "chitchat"
+  },
+  {
+    "text": "Cho tôi hỏi chút",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bạn giúp tôi được không",
+    "label": "chitchat"
+  },
+  {
+    "text": "Tôi cần tư vấn",
+    "label": "chitchat"
+  },
+  {
+    "text": "Tôi có câu hỏi",
+    "label": "chitchat"
+  },
+  {
+    "text": "Tôi không biết",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bạn làm được gì",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chức năng của bạn là gì",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bạn bao nhiêu tuổi",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thời tiết hôm nay thế nào",
+    "label": "chitchat"
+  },
+  {
+    "text": "Kể chuyện cười đi",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bạn thích gì",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ha ha",
+    "label": "chitchat"
+  },
+  {
+    "text": "Lol",
+    "label": "chitchat"
+  },
+  {
+    "text": "Đúng rồi",
+    "label": "chitchat"
+  },
+  {
+    "text": "Sai rồi",
+    "label": "chitchat"
+  },
+  {
+    "text": "Không phải thế",
+    "label": "chitchat"
+  },
+  {
+    "text": "Tôi hiểu rồi",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thật không?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bạn đùa à",
+    "label": "chitchat"
+  },
+  {
+    "text": "Làm tốt lắm",
+    "label": "chitchat"
+  },
+  {
+    "text": "Giúp tôi với",
+    "label": "chitchat"
+  },
+  {
+    "text": "Alo",
+    "label": "chitchat"
+  },
+  {
+    "text": "Có ai ở đó không",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bạn ăn cơm chưa",
+    "label": "chitchat"
+  },
+  {
+    "text": "Trợ lý ơi",
+    "label": "chitchat"
+  },
+  {
+    "text": "Cho tôi hỏi cái này",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bạn biết tiếng Việt không",
+    "label": "chitchat"
+  },
+  {
+    "text": "Vốn điều lệ tối thiểu để thành lập công ty TNHH là bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức đóng BHXH bắt buộc của doanh nghiệp là bao nhiêu %?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Đăng ký kinh doanh ở đâu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hộ kinh doanh cá thể có được xuất hóa đơn VAT không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Bao nhiêu tuổi thì được ký hợp đồng lao động?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời gian thử việc tối đa là bao lâu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Nghỉ thai sản được hưởng bao nhiêu tháng lương?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mã số thuế doanh nghiệp có bao nhiêu số?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Làm sao để đăng ký mã số thuế cá nhân?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cách tính thuế thu nhập doanh nghiệp?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Công ty cổ phần cần tối thiểu bao nhiêu cổ đông?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt đi làm muộn theo quy định là bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Xin giấy phép lao động cho người nước ngoài cần gì?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Quy định về thời giờ làm việc bình thường?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Luật lao động mới nhất là năm nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Công đoàn phí nộp bao nhiêu phần trăm?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Trợ cấp thôi việc tính thế nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thuế VAT hiện nay là 8% hay 10%?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Khai thuế giá trị gia tăng theo quý hay tháng?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Công ty siêu nhỏ có cần kế toán trưởng không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Luật sở hữu trí tuệ quy định nhãn hiệu là gì?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thủ tục đăng ký nhãn hiệu độc quyền?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thành lập chi nhánh khác tỉnh như thế nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Công ty TNHH 1 thành viên do ai làm chủ?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Quyền của giám đốc công ty cổ phần?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Sổ đỏ doanh nghiệp có được thế chấp ngân hàng không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Việt kiều có được thành lập công ty tại Việt Nam không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Phạt nộp chậm tờ khai thuế môn bài bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hạn nộp thuế môn bài là ngày nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Các loại thuế cơ bản doanh nghiệp phải nộp?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Muốn thay đổi tên công ty thì làm sao?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thay đổi người đại diện pháp luật cần giấy tờ gì?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Giấy phép con là gì?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời gian cấp giấy chứng nhận đăng ký doanh nghiệp?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Lệ phí đăng ký thành lập doanh nghiệp là bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Có được đặt tên công ty bằng tiếng Anh không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Công ty mới thành lập có được miễn thuế không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Tra cứu thông tin doanh nghiệp ở trang web nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Con dấu công ty hình vuông được không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Có bắt buộc khắc dấu công ty không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mở tài khoản ngân hàng công ty cần gì?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hóa đơn điện tử có bắt buộc không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Có được giữ lương của nhân viên nghỉ việc không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Lao động nữ có được nghỉ ngày đèn đỏ không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Sa thải nhân viên có cần báo trước không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hợp đồng lao động thời vụ tối đa mấy tháng?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Tiền làm thêm giờ ngày lễ tính bao nhiêu %?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Có bắt buộc khám sức khỏe định kỳ cho nhân viên không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Quy định về phòng cháy chữa cháy cho công ty?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Đăng ký thang bảng lương ở đâu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Công ty tôi muốn giải thể do phá sản, vậy thứ tự ưu tiên thanh toán nợ lương cho nhân viên và nợ thuế nhà nước được pháp luật quy định như thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Tôi muốn thành lập công ty cổ phần có vốn đầu tư nước ngoài (FDI), các bước xin giấy phép đầu tư và mở tài khoản vốn trực tiếp quy định ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nếu công ty chậm đóng bảo hiểm xã hội 6 tháng thì bị tính lãi chậm nộp thế nào, và giám đốc có bị truy cứu trách nhiệm hình sự không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cho tôi hỏi thủ tục sáp nhập hai công ty TNHH thành một công ty mới, xử lý hợp đồng lao động cũ và hóa đơn còn tồn đọng thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Công ty tôi thuê chuyên gia nước ngoài vào làm việc, vậy xin giấy phép lao động mất bao lâu và thủ tục cấp thẻ tạm trú đi kèm như thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Khi có tranh chấp lao động về việc đơn phương chấm dứt hợp đồng trái pháp luật, công ty phải bồi thường những khoản nào và trình tự ra Tòa án ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Điều kiện để doanh nghiệp nhỏ và vừa được hỗ trợ lãi suất vay ngân hàng, và quy trình làm hồ sơ xin hỗ trợ từ quỹ phát triển doanh nghiệp?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp bị thanh tra thuế phát hiện trốn thuế 500 triệu đồng thì mức phạt hành chính tính thế nào, có bị truy tố hình sự không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Thủ tục đăng ký bản quyền phần mềm và bảo hộ kiểu dáng công nghiệp khác nhau thế nào, chi phí và thời gian từng loại ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nếu công ty nợ lương nhân viên 3 tháng, tập thể lao động có quyền đình công không và quy trình đình công hợp pháp theo luật quy định thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Chính sách miễn giảm thuế thu nhập doanh nghiệp cho công ty phần mềm mới thành lập trong khu công nghệ cao như thế nào, thủ tục xin xác nhận ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Công ty TNHH muốn chuyển đổi loại hình sang Công ty Cổ phần thì phải xử lý tài sản công ty và ký lại hợp đồng lao động như thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Quy định về việc chuyển nhượng vốn góp trong công ty TNHH hai thành viên trở lên, phải nộp thuế thu nhập cá nhân bao nhiêu phần trăm?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Khi thành lập chi nhánh hạch toán độc lập khác tỉnh, thủ tục đăng ký kinh doanh và cách kê khai thuế VAT, thuế môn bài như thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Tôi muốn mở cơ sở kinh doanh dịch vụ karaoke, cần xin những giấy phép con nào về an ninh trật tự và phòng cháy chữa cháy?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Quy định pháp luật về việc sa thải nhân viên nữ đang mang thai do vi phạm nghiêm trọng kỷ luật lao động, công ty có bị phạt không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp xuất khẩu nông sản được hưởng chính sách hoàn thuế VAT như thế nào, hồ sơ cần chuẩn bị những chứng từ gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Trường hợp bất khả kháng do thiên tai làm hỏng hàng hóa, công ty có được miễn giảm thuế TNDN và cách hạch toán chi phí thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Thủ tục đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng cần điều kiện gì và công ty phái cử có trách nhiệm gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nếu phát hiện hàng giả nhãn hiệu của công ty mình trên thị trường, quy trình khiếu nại lên quản lý thị trường và khởi kiện dân sự ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Việc phân chia lợi nhuận (cổ tức) trong công ty cổ phần được tiến hành khi nào, cổ đông phải nộp thuế thu nhập cá nhân từ đầu tư vốn bao nhiêu?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Hành vi cạnh tranh không lành mạnh và tung tin đồn thất thiệt bôi nhọ đối thủ bị xử lý hành chính hay hình sự theo luật hiện hành?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Công ty cung cấp dịch vụ viễn thông muốn khuyến mại giảm giá 60% gói cước thì có vi phạm luật thương mại không, cần đăng ký với cơ quan nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Điều kiện cấp giấy phép hoạt động cho thuê lại lao động đối với doanh nghiệp, mức ký quỹ là bao nhiêu và sử dụng vào mục đích gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Hợp đồng kinh tế vô hiệu trong trường hợp nào, hậu quả pháp lý khi hợp đồng vô hiệu đối với các khoản tiền đã thanh toán ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Thủ tục đăng ký biến động đất đai khi doanh nghiệp nhận chuyển nhượng quyền sử dụng đất, các loại thuế phí phải nộp là những gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Khi xử lý kỷ luật sa thải người lao động ăn cắp tài sản công ty, cần có sự tham gia của tổ chức công đoàn không và trình tự họp thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp bán hàng qua Shopee, Tiktok có phải xuất hóa đơn điện tử từng đơn hàng không và cách tính thuế kinh doanh thương mại điện tử?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Trường hợp công ty tạm ngừng kinh doanh 1 năm thì có phải nộp tờ khai thuế hàng quý và nộp thuế môn bài cho năm đó không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Quy định về việc bảo lãnh ngân hàng cho hợp đồng xây dựng, nếu nhà thầu vi phạm tiến độ thì chủ đầu tư có quyền tịch thu bảo lãnh không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Mức bồi thường thiệt hại do ô nhiễm môi trường công ty xả thải gây ra được tính như thế nào, và ai có quyền khởi kiện công ty?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Luật quy định thế nào về việc chia tài sản chung của vợ chồng là cổ phần trong công ty khi ly hôn, có ảnh hưởng đến quyền điều hành không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Phân biệt hợp đồng hợp tác kinh doanh (BCC) và liên doanh, ưu nhược điểm của từng hình thức khi kêu gọi vốn đầu tư nước ngoài?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Điều kiện mở trung tâm ngoại ngữ, yêu cầu bằng cấp của giám đốc trung tâm và diện tích cơ sở vật chất theo quy định mới nhất?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Trường hợp công ty bảo hiểm từ chối bồi thường cháy nổ do lỗi vi phạm PCCC của chủ kho hàng, quy định giải quyết tranh chấp thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Hàng hóa nhập khẩu bị hải quan giữ lại do nghi ngờ khai sai mã HS, công ty cần làm thủ tục giám định và khiếu nại quyết định hải quan ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Người lao động bị tai nạn giao thông trên đường đi làm từ nhà đến công ty có được coi là tai nạn lao động không, mức hưởng chế độ thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Thủ tục xin cấp giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm cho nhà hàng, và thời hạn hiệu lực của giấy phép là bao lâu?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp muốn vay vốn ưu đãi từ Quỹ Đổi mới công nghệ quốc gia thì cần thỏa mãn tiêu chí gì về dự án và tài sản thế chấp?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Hành vi thao túng thị trường chứng khoán của chủ tịch HĐQT bị xử lý hình sự theo điều luật nào, mức án và tiền phạt tối đa ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Quy định về việc xử lý hàng hóa tồn kho quá hạn sử dụng, công ty có được đưa vào chi phí được trừ khi tính thuế TNDN không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Trình tự, thủ tục tổ chức Đại hội đồng cổ đông thường niên, nếu lần 1 không đủ tỷ lệ dự họp thì lần 2 và lần 3 quy định ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Luật cho phép doanh nghiệp FDI mua đất ở Việt Nam không, hay chỉ được thuê đất, và thời hạn thuê đất tối đa đối với dự án FDI là bao nhiêu năm?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cách xử lý khi người lao động tự ý bỏ việc 5 ngày liên tục không lý do, công ty có được quyền đơn phương chấm dứt hợp đồng không và thủ tục thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Việc sử dụng hình ảnh của người nổi tiếng để quảng cáo sản phẩm mà chưa xin phép bị xử phạt vi phạm hành chính bao nhiêu và bồi thường thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Chủ đầu tư chậm bàn giao căn hộ cho khách hàng thì phải chịu phạt vi phạm hợp đồng và bồi thường thiệt hại theo quy định Luật Kinh doanh BĐS ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Thủ tục giải quyết tranh chấp hợp đồng thương mại tại Trung tâm Trọng tài Quốc tế Việt Nam (VIAC), phán quyết của trọng tài có giá trị bắt buộc thi hành không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Quy định về việc mua bán nợ giữa các doanh nghiệp, điều kiện để được cấp giấy phép kinh doanh dịch vụ mua bán nợ theo quy định mới nhất?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Hành vi hối lộ cán bộ công chức để xin dự án bị khép vào tội gì, trách nhiệm hình sự của cả pháp nhân thương mại và cá nhân thực hiện hành vi?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Các trường hợp được miễn giấy phép xây dựng đối với công trình xây dựng trong khu công nghiệp, quy trình thông báo khởi công thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Xin chào bot pháp lý nhé!",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chào bạn, hôm nay thế nào?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hi ai, có khỏe không nè?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Cảm ơn bạn rất nhiều vì đã giúp đỡ.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Tks b nhiều nha.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ủa bot ơi bạn là nam hay nữ vậy?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bạn thông minh quá, câu nào cũng biết.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Trả lời chán ghê, không đúng ý tẹo nào.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Tạm biệt nhé, mai lại nói chuyện tiếp.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Good morning bot yêu!",
+    "label": "chitchat"
+  },
+  {
+    "text": "Alo alo nghe rõ trả lời bot ơi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Khen bot thông minh dã man luôn á.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Kể cho tôi nghe một câu chuyện vui đi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hôm nay trời đẹp quá bạn nhỉ.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chán quá, chẳng biết làm gì bây giờ.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ủa sao phản hồi chậm thế b ơi?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ai tạo ra bạn thế?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Mày tên là gì vậy robot?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ok cám ơn b, để tớ xem lại.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thôi bỏ đi, ko cần tư vấn nữa đâu.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hello hello, có ai trực tổng đài ko?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chúc b một ngày làm việc hiệu quả nhé.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Haha buồn cười quá bot ơi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ghê thật, giải đáp nhanh như chớp.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Dốt thế, nói thế mà cũng không hiểu.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bạn có biết hát không?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ngủ ngon nhé người bạn ảo.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bye bye cưng nha.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ui là trời, xịn sò thế nhờ.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thôi chào nhé, out đây.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ê bot rảnh không nói chuyện phiếm tí.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Mệt mỏi với đống công việc này quá.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Cứu với bot ơi, stress quá rồi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Okela cảm ơn bạn nhé.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Dạ vâng em cảm ơn ạ.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ừ cảm ơn nha.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thế thôi à, tưởng thế nào.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bạn có người yêu chưa bot?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Nói năng luyên thuyên gì thế không biết.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Lặp lại câu trả lời vừa rồi xem nào.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Viết cái gì dài dòng văn tự thế.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chuẩn luôn b ơi, quá đỉnh.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ầy gù, mệt đầu ghê á.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ăn cơm chưa robot?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thả tim cho bot nè <3",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chào buổi chiều nha cả nhà.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Xàm xí quá bot ơi, trả lời lại đi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Không biết thì thưa thớt nhé b.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Tuyệt vời ông mặt trời luông.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ok b nha, cám ơn nhiều.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hihi vui quá đi mất.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hôm nay là thứ mấy nhỉ?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bạn sống ở đâu vậy bot?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Trời ơi tin được không.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Có gì hot không bạn ơi?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Nói ngắn gọn thôi đừng dài dòng.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Biết thế hỏi người thật cho xong.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bạn hữu ích thật sự luôn á.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chào nha, có gì mới ko b?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thôi đừng nói nữa mệt quá.",
+    "label": "chitchat"
+  },
+  {
+    "text": "U là trời quả hệ thống xịn đét.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ahihi đồ ngốc bot.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Gút chóp b ơi, 10 điểm ko có nhưng.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ủa rồi sao nữa bạn?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chờ mãi mới thấy rep nha.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Nghe có vẻ hợp lý đấy chứ.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ủa cái gì vậy trời?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hẹn gặp lại b vào ngày mai.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Tks kiu vinamiu nha.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chúc mừng năm mới bot iu nhé.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hết nói nổi với m luôn.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Vớ vẩn thật sự, chả giúp ích gì.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ê có biết đùa ko á?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chào bạn, tớ là người dùng mới nè.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Rất hân hạnh được làm quen với AI.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ái chà chà, được của ló đấy.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hỏi chơi thôi chứ biết thừa rồi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ngoan ngoãn nghe lời trẫm xem nào.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bot làm việc 24/7 luôn hả?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Vui lên đi nào người bạn ơi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Cạn lời với câu trả lời này.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ok b, ghi nhận tinh thần hợp tác.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thế thôi b nhé, tạm biệt.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ui bậy bạ hết sức hà.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Gặp lại sau nha bạn hiền.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hỏi tí cho đỡ buồn ngủ thôi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Làm sao để hết nghèo hả bot?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Đỉnh chóp luôn, bái phục bái phục.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chào sếp nha, chúc sếp ngày tốt lành.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Nghe nói bạn thông minh lắm đúng ko?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chấm cái cho đỡ trôi bài.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bớ người ta bot nói linh tinh nè.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Tào lao quá đi mất thôi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Cảm ơn vì tất cả nhé.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thôi tớ đi ăn cơm đây, bái bai.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Lêu lêu bot lêu lêu.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Đồng ý hoàn toàn với bạn luôn.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Haha chuẩn đét đèn đẹt luôn.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hỏi cái này ngoài lề tí nha.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Kết thúc cuộc trò chuyện ở đây nhé.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thuế suất thuế thu nhập doanh nghiệp hiện nay là bao nhiêu %?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Ký hđld thử việc tối đa mấy tháng vậy cty?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Nghỉ thai sản năm 2026 được hưởng mấy tháng lương bảo hiểm?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Công ty cổ phần cần tối thiểu bao nhiêu cổ đông sáng lập?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt chậm nộp tờ khai thuế GTGT quá hạn 10 ngày là bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hồ sơ đăng kí nhãn hiệu độc quyền gồm những giấy tờ gì?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty TNHH 1 thành viên có được phát hành cổ phiếu không b?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hạn nộp lệ phí môn bài hàng năm của doanh nghiệp là khi nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức đóng bhxh bắt buộc của người lao động hiện nay là bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thế nào là người đại diện theo pháp luật của doanh nghiệp?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thành lập chi nhánh công ty khác tỉnh cần nộp hồ sơ ở đâu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Vốn điều lệ tối thiểu để mở công ty kinh doanh bất động sản?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Người lao động đơn phương chấm dứt HĐLD phải báo trước bao nhiêu ngày?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty không đóng bảo hiểm thất nghiệp cho nhân viên bị phạt thế nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Văn phòng đại diện của cty nước ngoài có được ký hợp đồng kinh tế không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Đăng ký thay đổi ngành nghề kinh doanh mất thời gian bao lâu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức lương tối thiểu vùng hiện tại của Vùng 1 là bao nhiêu tiền?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hội đồng quản trị trong cty cổ phần họp tối thiểu mấy lần 1 năm?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Bản quyền tác giả phần mềm máy tính có thời hạn bảo hộ bao lâu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt đối với vi phạm không tổ chức đối thoại tại nơi làm việc?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Doanh nghiệp fdi có được mua đất làm văn phòng tại Việt Nam không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Chi phí tiếp khách có bị khống chế mức trần khi tính thuế TNDN ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức thuế suất thuế PIT cao nhất đối với cá nhân cư trú là bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty muốn thay đổi con dấu doanh nghiệp thì thông báo cho ai?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hạn nộp báo cáo tài chính năm của doanh nghiệp tư nhân là khi nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Lương làm thêm giờ vào ngày chủ nhật được tính bằng bao nhiêu phần trăm?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hồ sơ đăng ký giảm trừ gia cảnh cho bố mẹ gồm những gì?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Doanh nghiệp mới thành lập có được miễn thuế môn bài năm đầu ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty có được giữ bản chính giấy tờ tùy thân của nld không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức xử phạt khi cty sa thải lao động nữ vì lý do kết hôn?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời gian thử việc của vị trí giám đốc tối đa là bao nhiêu ngày?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cơ quan nào có thẩm quyền cấp giấy chứng nhận đăng ký đầu tư?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Doanh nghiệp có bắt buộc phải thành lập Công đoàn cơ sở không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức đóng kinh phí công đoàn của doanh nghiệp là mấy % quỹ lương?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty muốn tạm ngừng kinh doanh phải thông báo trước bao nhiêu ngày?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thuế suất thuế nhà thầu nước ngoài đối với dịch vụ là bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Trợ cấp thôi việc do ai chi trả và tính theo hệ số nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mất giấy chứng nhận đăng ký kinh doanh thì xin cấp lại ở đâu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cổ đông sở hữu bao nhiêu % cổ phần thì có quyền triệu tập ĐHĐCĐ?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hạn ủy quyền quyết toán thuế TNCN là ngày nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Doanh nghiệp siêu nhỏ có được tự xác định mức đóng bảo hiểm không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty cổ phần có bắt buộc phải có Ban kiểm soát không b?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Ký hợp đồng lao động bằng lời nói có giá trị pháp lý không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Tiền thưởng Tết cho nhân viên có phải tính thuế TNCN không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức đóng bảo hiểm y tế của người sử dụng lao động là bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hợp đồng lao động xác định thời hạn được ký tối đa mấy lần?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty chậm đóng bhxh 3 tháng thì bị phạt lãi suất bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mẫu hóa đơn điện tử hợp pháp cần có những tiêu chí gì?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Người nước ngoài làm giám đốc cty vn có cần giấy phép lao động ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Chi phí khấu hao tài sản cố định mua cũ tính như thế nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức đóng bảo hiểm tai nạn lao động, bệnh nghề nghiệp hiện tại?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức xử phạt hành vi không đăng ký mã số thuế doanh nghiệp?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hồ sơ tăng vốn điều lệ cty tnhh gồm những gì?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Lao động nữ nuôi con dưới 12 tháng được nghỉ bao nhiêu phút mỗi ngày?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty có được khấu trừ lương của nld để phạt vi phạm kỷ luật không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hiệu xử lý kỷ luật lao động tối đa là mấy tháng?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Doanh nghiệp có được dùng ngoại tệ để niêm yết giá hàng hóa không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hạn nộp thuế GTGT theo phương pháp khấu trừ theo tháng là ngày nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức chi tối đa cho quỹ khoa học công nghệ của doanh nghiệp là bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt hành vi trốn thuế từ 1 đến 3 lần số thuế trốn?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời gian tối đa để góp đủ vốn điều lệ kể từ ngày cấp gcnđkdn?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty tnhh có được giảm vốn điều lệ sau khi thành lập không b?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức giảm trừ gia cảnh cho bản thân người nộp thuế hiện nay là bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hợp đồng dịch vụ giữa 2 công ty có bắt buộc phải đóng dấu giáp lai?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hộ kinh doanh cá thể có được chuyển đổi thành cty tnhh không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hạn nộp báo cáo tình hình sử dụng lao động định kỳ 6 tháng?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thế nào là hành vi cạnh tranh không lành mạnh theo Luật Cạnh tranh?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hồ sơ chuyển nhượng cổ phần trong cty cổ phần gồm những gì?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Doanh nghiệp xã hội có được phân phối lợi nhuận cho chủ sở hữu ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt khi sử dụng lao động dưới 15 tuổi làm việc quá giờ?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty có được tự ý cho người lao động nghỉ việc vì lý do tái cơ cấu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hóa đơn đầu vào trên 20 triệu thanh toán bằng tiền mặt có được trừ thuế?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hạn bảo hộ đối với nhãn hiệu tại Việt Nam là mấy năm?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt khi chậm nộp báo cáo tình hình sử dụng hóa đơn điện tử?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty mua xe ô tô trên 1.6 tỷ được khấu trừ thuế GTGT thế nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thủ tục đăng ký kinh doanh qua mạng thực hiện tại website nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Lao động nam có được nghỉ hưởng lương khi vợ sinh con không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Chi nhánh hạch toán phụ thuộc có phải nộp tờ khai thuế TNDN riêng ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt tiền tối đa đối với hành vi vi phạm quyền lợi người tiêu dùng?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Người nước ngoài mua cổ phần cty vn tối đa bao nhiêu %?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty không cấp mũ bảo hộ cho công nhân xây dựng bị phạt bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Doanh nghiệp được hoãn đóng bhxh trong trường hợp khẩn cấp nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hợp đồng thương mại điện tử có cần chữ ký số để hợp pháp không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thành viên góp vốn cty TNHH có quyền kiểm tra sổ sách kế toán ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Tiền phụ cấp xăng xe, điện thoại có phải đóng bhxh bắt buộc không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt chậm đăng ký biến động đất đai của doanh nghiệp?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hồ sơ đăng ký tài khoản ngân hàng với Sở Kế hoạch Đầu tư gồm gì?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty có được đơn phương chấm dứt hợp đồng khi nld bị ốm đau dài ngày?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hạn giải quyết hồ sơ hoàn thuế GTGT dự án đầu tư là bao lâu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức xử phạt đối với hành vi bán hàng không lập hóa đơn cho khách?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Đăng ký sáng chế độc quyền tại Việt Nam có hiệu lực bao nhiêu năm?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty có được ký hợp đồng dịch vụ thay cho hđld với nhân viên văn phòng?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Người đại diện pháp luật vắng mặt tại Việt Nam trên 30 ngày phải làm gì?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Doanh nghiệp có được tự in hóa đơn giấy trong năm 2026 không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt khi không lập ban kiểm soát đối với cty đại chúng?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời gian giải quyết tranh chấp lao động cá nhân tại Hòa giải viên?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty kinh doanh lữ hành quốc tế ký quỹ bao nhiêu tiền tại ngân hàng?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Chi phí mua bảo hiểm nhân thọ cho nhân viên được trừ thuế tối đa bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hội đồng thành viên cty TNHH họp hợp lệ khi có bao nhiêu vốn tham gia?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt tiền đối với hành vi chậm nộp báo cáo tình hình sử dụng lao động?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Công ty tôi muốn sa thải nhân viên tự ý nghỉ việc 5 ngày liên tục nhưng người này đang mang thai 3 tháng thì có làm được không, quy trình xử lý kỷ luật thế nào để không vi phạm luật lao động?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp FDI muốn mở rộng thêm ngành nghề kinh doanh bán lẻ và đồng thời thay đổi người đại diện theo pháp luật từ người Hàn sang người Việt thì có làm gộp được một bộ hồ sơ không, cần chuẩn bị những giấy tờ gì và nộp ở đâu?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một cổ đông trong công ty cổ phần muốn chuyển nhượng toàn bộ phần vốn góp cho người ngoài nhưng các cổ đông còn lại không đồng ý cũng không chịu mua lại, trường hợp này giải quyết thế nào và thuế thu nhập từ chuyển nhượng cổ phần tính ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty chúng tôi bị chậm đóng BHXH 6 tháng do khó khăn tài chính, bây giờ có một nhân viên xin nghỉ việc để hưởng chế độ thai sản thì cơ quan bảo hiểm có giải quyết chế độ cho họ không, cty phải làm gì để chốt được sổ bhxh cho nhân viên đó?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Giám đốc công ty TNHH 2 thành viên tự ý ký hợp đồng kinh tế mua nguyên vật liệu với giá trị chiếm 60% tổng tài sản công ty mà không thông qua Hội đồng thành viên, hợp đồng này có bị vô hiệu không và các thành viên khác có quyền kiện đòi bồi thường thiệt hại không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp mua một chiếc ô tô 5 chỗ trị giá 3 tỷ đồng phục vụ đưa đón ban giám đốc, xin hỏi tiền thuế GTGT đầu vào được khấu trừ toàn bộ hay bị giới hạn, và chi phí trích khấu hao xe này khi tính thuế TNDN sẽ được xử lý như thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên ký HĐLD 2 năm nhưng làm được 6 tháng thì tự ý nghỉ việc không báo trước, công ty có quyền giữ lương tháng cuối và không chốt sổ BHXH của họ không, đồng thời nhân viên này có phải bồi thường chi phí đào tạo mà cty đã bỏ ra trước đó?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Chúng tôi muốn thành lập một văn phòng đại diện tại TP.HCM cho công ty mẹ ở Hà Nội, tuy nhiên văn phòng này có phát sinh hoạt động tiếp thị và thu tiền trực tiếp từ khách hàng thì có được hạch toán phụ thuộc không và nghĩa vụ thuế môn bài, thuế GTGT phát sinh thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Công ty phát hiện nhân viên tuồn bí mật kinh doanh, cụ thể là danh sách khách hàng VIP cho đối thủ cạnh tranh, chúng tôi có thể lập tức chấm dứt hợp đồng lao động mà không cần báo trước không, và thủ tục yêu cầu bồi thường thiệt hại về sở hữu trí tuệ cần chứng minh những gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một doanh nghiệp nước ngoài muốn góp vốn bằng máy móc cũ đã qua sử dụng vào một công ty công nghệ tại Việt Nam thì cần đáp ứng những tiêu chuẩn kỹ thuật nào, thủ tục giám định giá trị máy móc và đăng ký tăng vốn điều lệ tại Sở KHĐT thực hiện ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty phát sinh hóa đơn đầu vào trên 20 triệu nhưng do tài khoản cty bị phong tỏa nên giám đốc đã dùng tài khoản cá nhân để thanh toán cho nhà cung cấp, hóa đơn này có được tính là chi phí hợp lý được trừ khi quyết toán thuế TNDN và có được hoàn thuế GTGT không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Khi công ty tiến hành giải thể thì thứ tự ưu tiên thanh toán các khoản nợ được quy định như thế nào, nếu tài sản thanh lý của cty không đủ trả nợ thuế và nợ lương công nhân thì chủ sở hữu công ty TNHH một thành viên có phải dùng tài sản cá nhân để trả thay không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên thử việc 2 tháng, sau khi hết thời gian thử việc cty thấy không đạt yêu cầu nên thông báo cho nghỉ việc luôn, nhân viên này kiện yêu cầu phải trả trợ cấp mất việc và đóng bhxh cho 2 tháng thử việc đó, hỏi yêu cầu của nhân viên có đúng luật không và cty phải xử lý sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty cổ phần có 3 cổ đông sáng lập, hiện tại 1 cổ đông muốn rút toàn bộ vốn bằng cách yêu cầu công ty mua lại cổ phần của mình nhưng hai cổ đông kia không đồng ý vì cty đang lỗ, trường hợp này pháp luật quy định điều kiện để cty mua lại cổ phần là gì và thủ tục thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Chúng tôi phát hiện một cty đối thủ đăng ký nhãn hiệu logo gần như trùng hoàn toàn với logo cty chúng tôi đã được cấp văn bằng bảo hộ từ năm 2021, chúng tôi cần nộp đơn khiếu nại lên cơ quan nào, thủ tục ngăn chặn và yêu cầu họ gỡ bỏ nhãn hiệu vi phạm gồm những bước gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp tổ chức làm thêm giờ cho công nhân sản xuất vượt quá 300 giờ trong một năm do đơn hàng gấp thì bị xử phạt hành chính như thế nào, nếu công nhân tự nguyện ký đơn xin làm thêm giờ thì cty có được miễn trừ trách nhiệm pháp lý khi bị thanh tra kiểm tra không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty muốn chuyển đổi từ loại hình TNHH sang Công ty Cổ phần để gọi vốn đầu tư, trong quá trình chuyển đổi này có làm thay đổi mã số thuế và nghĩa vụ quyết toán thuế TNDN đến thời điểm chuyển đổi không, các hợp đồng kinh tế cũ đã ký có phải ký lại phụ lục không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên nước ngoài làm việc tại cty theo diện chuyên gia có giấy phép lao động đầy đủ, khi họ nhận lương từ cả bên Việt Nam và bên tổng công ty ở nước ngoài thì việc kê khai và quyết toán thuế TNCN tại Việt Nam sẽ tính theo thu nhập toàn cầu như thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Công ty kinh doanh dịch vụ ăn uống muốn đăng ký giấy chứng nhận đủ điều kiện an toàn thực phẩm thì hồ sơ cần những loại giấy tờ gì, và nếu trong quá trình hoạt động bị đoàn liên ngành kiểm tra phát hiện dùng nguyên liệu không rõ nguồn gốc thì mức phạt tối đa là bao nhiêu?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Chủ tịch HĐQT cty cổ phần bỏ trốn ra nước ngoài và không thể liên lạc được, hiện tại cty cần ký kết các hợp đồng quan trọng và thanh toán lương cho nhân viên thì ai sẽ là người có thẩm quyền thay thế điều hành, và thủ tục bầu người đại diện pháp luật mới cần lưu ý gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp Logistics của chúng tôi muốn ký hợp đồng cho thuê lại lao động với một công ty dịch vụ, xin hỏi ngành nghề này có thuộc danh mục được phép cho thuê lại lao động không và nếu xảy ra tai nạn lao động thì bên tôi hay bên cho thuê lao động phải chịu trách nhiệm bồi thường?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty muốn chi trả phụ cấp trang phục bằng tiền mặt 7 triệu/năm/người và phụ cấp ăn trưa 1 triệu/tháng/người cho nhân viên, xin hỏi phần chi phí này có được trừ hoàn toàn khi tính thuế TNDN không và nhân viên có phải đóng thuế TNCN đối với hai khoản phụ cấp này không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một công ty con do công ty mẹ nắm giữ 90% vốn điều lệ muốn ký hợp đồng mua bán tài sản với chính công ty mẹ đó thì hợp đồng này có cần phải thông qua Đại hội đồng cổ đông hay Hội đồng quản trị phê duyệt không, và quy định về kiểm soát giao dịch liên kết ở đây là gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Người lao động bị tai nạn giao thông trên đường từ nhà đến công ty trong giờ đi làm thì có được xác định là tai nạn lao động không, trách nhiệm chi trả chi phí y tế của công ty và mức trợ cấp từ quỹ bảo hiểm tai nạn lao động được tính toán dựa trên căn cứ nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp có vốn đầu tư nước ngoài muốn thuê đất trong khu công nghiệp để xây dựng nhà xưởng sản xuất, xin hỏi hình thức trả tiền thuê đất hàng năm hay trả một lần sẽ được cấp sổ hồng, và khi cty muốn thế chấp quyền sử dụng đất này tại ngân hàng Việt Nam thì cần điều kiện gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty cổ phần phát hành cổ phiếu thưởng cho người lao động (ESOP) từ nguồn thặng dư vốn cổ phần, khi nhân viên nhận cổ phiếu này có phải nộp thuế TNCN ngay không, hay đến khi họ thực hiện chuyển nhượng số cổ phiếu đó trên sàn chứng khoán mới phải kê khai nộp thuế?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên kinh doanh tự ý dùng danh nghĩa công ty để ký hợp đồng dịch vụ và nhận tiền đặt cọc của khách hàng rồi chiếm đoạt bỏ trốn, về mặt pháp lý công ty có bắt buộc phải tiếp tục thực hiện hợp đồng đó cho khách hàng không và trách nhiệm dân sự của các bên phân định sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Chúng tôi muốn tạm ngừng kinh doanh công ty trong vòng 1 năm nhưng do sơ suất nên nộp thông báo muộn 5 ngày so với quy định, xin hỏi mức xử phạt hành chính là bao nhiêu và trong thời gian tạm ngừng này công ty có phải nộp tờ khai thuế GTGT và báo cáo tài chính năm không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một dự án đầu tư của công ty đã được cấp Giấy chứng nhận đăng ký đầu tư nhưng sau 12 tháng vẫn chưa triển khai xây dựng do vướng mắc giải phóng mặt bằng, dự án này có nguy cơ bị thu hồi không và cty cần làm thủ tục gì để xin gia hạn tiến độ thực hiện dự án?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty chuyển văn phòng làm việc sang quận khác cùng thành phố, xin hỏi có phải làm thủ tục chốt sổ BHXH để chuyển cơ quan quản lý bảo hiểm không, và hồ sơ thay đổi thông tin đăng ký thuế với cơ quan thuế quận cũ và quận mới gồm những bước cụ thể nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp công nghệ được hưởng ưu đãi thuế TNDN miễn 4 năm giảm 9 năm, năm 2026 là năm đầu tiên cty có thu nhập chịu thuế nhưng lại phát sinh cả doanh thu từ hoạt động thanh lý tài sản cố định, vậy doanh thu thanh lý này có được áp dụng mức thuế suất ưu đãi như hoạt động công nghệ ko?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên làm việc theo hđld không xác định thời hạn gửi đơn xin nghỉ việc trước 45 ngày, nhưng sau đó 20 ngày họ đổi ý làm đơn xin rút lại thông báo nghỉ việc, cty không đồng ý và muốn cho nghỉ luôn theo đúng ngày hẹn ban đầu thì có bị coi là đơn phương chấm dứt hđld trái luật không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty muốn giảm vốn điều lệ do các thành viên không góp đủ vốn trong thời hạn 90 ngày kể từ khi thành lập, xin hỏi thủ tục hồ sơ nộp lên Sở KHĐT cần những gì, và nếu cty không thực hiện đăng ký giảm vốn đúng hạn thì mức phạt tiền đối với hành vi này được quy định ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một công ty phần mềm muốn ký hợp đồng khoán việc với một nhóm lập trình viên tự do để thực hiện dự án trong 3 tháng, xin hỏi hợp đồng khoán việc này có bị cơ quan thuế và bảo hiểm xuất toán yêu cầu truy thu bhxh bắt buộc không, và cty phải khấu trừ thuế TNCN của nhóm này thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp lữ hành bị khách hàng khởi kiện đòi bồi thường vì chất lượng tour không đúng cam kết trong hợp đồng do điều kiện thời tiết bất khả kháng, quy định của pháp luật về trường hợp bất khả kháng trong hợp đồng thương mại áp dụng thế nào để cty được miễn giảm trách nhiệm?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Thành viên góp vốn chiếm 30% vốn điều lệ của cty TNHH liên tục vắng mặt trong các cuộc họp Hội đồng thành viên và không biểu quyết, dẫn đến việc cty không thể thông qua các quyết định quan trọng, cty có quyền khai trừ thành viên này ra khỏi công ty không và trình tự xử lý thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty sản xuất hàng tiêu dùng muốn triển khai chương trình khuyến mại bốc thăm trúng thưởng cho khách hàng với tổng giá trị giải thưởng lên đến 500 triệu đồng, xin hỏi cty phải đăng ký hay thông báo với Sở Công Thương, và nghĩa vụ thuế TNCN của khách hàng trúng thưởng tính sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên lái xe của cty trong lúc đi giao hàng đã gây tai nạn giao thông làm hỏng xe của người đi đường, thiệt hại ước tính 50 triệu đồng, về mặt luật dân sự và lao động thì công ty phải đứng ra bồi thường cho bên bị hại trước hay nhân viên lái xe phải tự chi trả hoàn toàn?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp FDI kinh doanh xuất nhập khẩu muốn vay vốn từ công ty mẹ ở nước ngoài với thời hạn vay là 3 năm, khoản vay này có bắt buộc phải đăng ký với Ngân hàng Nhà nước không, và chi phí lãi vay trả cho công ty mẹ có bị khống chế trần chi phí lãi vay theo Nghị định 132 ko?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty muốn sáp nhập một công ty con vào công ty mẹ, toàn bộ lao động của cty con sẽ chuyển sang cty mẹ tiếp tục làm việc, xin hỏi phương án sử dụng lao động phải lập thế nào, và nghĩa vụ thuế cũng như các khoản nợ của cty con sẽ được bàn giao sang cty mẹ theo thủ tục pháp lý nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một chi nhánh công ty tại Đà Nẵng muốn độc lập ký kết hợp đồng đại lý phân phối với đối tác nước ngoài, người đứng đầu chi nhánh có đương nhiên được quyền ký hợp đồng này không hay phải có văn bản ủy quyền từ người đại diện pháp luật của cty mẹ, và con dấu áp dụng là con dấu nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp áp dụng hình thức trả lương theo sản phẩm cho công nhân, vào những ngày nghỉ lễ tết được nghỉ theo quy định của pháp luật thì mức tiền lương làm cơ sở trả cho công nhân trong những ngày nghỉ này được tính toán dựa trên mức lương sản phẩm trung bình hay lương cơ bản?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty phát hiện kế toán trưởng có hành vi lập khống chứng từ chi để chiếm đoạt tiền công ty từ năm 2024, hiện tại người này đã xin nghỉ việc, cty có thể nộp đơn tố cáo ra cơ quan công an quận không và thời hiệu truy cứu trách nhiệm hình sự đối với tội danh này được quy định ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Chúng tôi mua lại một doanh nghiệp tư nhân và muốn chuyển đổi thành công ty TNHH một thành viên, xin hỏi chủ doanh nghiệp tư nhân cũ có còn phải chịu trách nhiệm vô hạn đối với các khoản nợ phát sinh trước khi chuyển đổi không, và hồ sơ chuyển đổi loại hình doanh nghiệp gồm những gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty bất động sản ký hợp đồng đặt cọc hứa mua hứa bán căn hộ chung cư với khách hàng khi dự án chưa được cấp giấy phép xây dựng, hợp đồng đặt cọc này có rủi ro bị tòa án tuyên vô hiệu do vi phạm điều kiện kinh doanh bất động sản hình thành trong tương lai không, xử lý hậu quả thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên đóng BHXH được 15 năm tại công ty và bị suy giảm khả năng lao động 61%, họ muốn xin nghỉ hưu sớm để hưởng lương hưu hàng tháng thì có đủ điều kiện theo luật bảo hiểm mới không, và cty có phải trả thêm khoản trợ cấp thôi việc nào cho người lao động này không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp ký hợp đồng thuê nhà của cá nhân làm văn phòng với giá 15 triệu/tháng, trong hợp đồng thỏa thuận cty sẽ nộp thay các loại thuế cho chủ nhà, vậy cty cần kê khai và nộp những loại thuế nào cho cơ quan thuế, và bộ chứng từ gồm những gì để được tính vào chi phí hợp lý?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một công ty quảng cáo sử dụng hình ảnh của một ca sĩ nổi tiếng để làm banner truyền thông khi chưa được sự đồng ý của họ, ca sĩ này gửi công văn yêu cầu gỡ bỏ và đòi bồi thường 200 triệu, xin hỏi cty có vi phạm Luật Dân sự và Luật SHTT không, mức phạt hành chính tối đa là bao nhiêu?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty cổ phần muốn tổ chức họp Đại hội đồng cổ đông trực tuyến và bỏ phiếu điện tử do các cổ đông ở nước ngoài không về được, điều này có hợp pháp không nếu điều lệ công ty chưa có quy định cụ thể, và biên bản họp cần phải đáp ứng các điều kiện gì để có hiệu lực pháp lý?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp sản xuất bao bì có hành vi xả nước thải chưa qua xử lý ra môi trường và bị người dân xung quanh chụp ảnh làm bằng chứng gửi lên chính quyền, xin hỏi mức xử phạt tiền tối đa đối với pháp nhân vi phạm môi trường là bao nhiêu và cty có nguy cơ bị đình chỉ hoạt động ko?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên làm việc theo hđld 1 năm, khi hợp đồng hết hạn vào ngày 31/12 cty không ký tiếp nhưng cũng không ra thông báo bằng văn bản, nhân viên vẫn tiếp tục đi làm đến hết tháng 1 năm sau thì cty mới thông báo cho nghỉ, trường hợp này hđld cũ đã tự động chuyển thành hđ không xác định thời hạn chưa?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty chuyển nhượng một phần dự án đầu tư xây dựng nhà ở thương mại cho đối tác, xin hỏi doanh thu từ việc chuyển nhượng dự án này phải kê khai nộp thuế GTGT theo thuế suất bao nhiêu, và nghĩa vụ nộp thuế thu nhập doanh nghiệp từ chuyển nhượng bất động sản được tính riêng hay gộp vào kết quả kinh doanh?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Thành viên công ty TNHH muốn dùng quyền sở hữu trí tuệ đối với một sáng chế đã được cấp bằng độc quyền để góp vốn thành lập công ty mới, việc định giá sáng chế này do các thành viên tự thỏa thuận hay bắt buộc phải qua tổ chức định giá chuyên nghiệp, và thủ tục chuyển quyền sở hữu ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp bán hàng xuất khẩu ra nước ngoài nhưng bị đối tác trả lại hàng do lỗi kỹ thuật, khi nhập khẩu lại số hàng lỗi này về Việt Nam để sửa chữa thì cty có phải nộp thuế nhập khẩu và thuế GTGT hàng nhập khẩu không, và thủ tục hải quan đối với hàng tái nhập trả lại thực hiện thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty muốn ký hợp đồng lao động với một người đã nghỉ hưu đang hưởng chế độ hưu trí hàng tháng, xin hỏi cty có bắt buộc phải đóng các khoản BHXH, BHYT, BHTN cho người này nữa không, và tiền lương chi trả có phải cộng thêm phần trăm tương đương mức đóng bảo hiểm của người sử dụng lao động?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty cổ phần có một nhóm cổ đông sở hữu tổng cộng 12% cổ phần phổ thông muốn đề cử người vào Hội đồng quản trị tại kỳ họp thường niên sắp tới, theo quy định họ có cần phải nắm giữ số cổ phần này liên tục trong thời gian tối thiểu 6 tháng không, và quy trình nộp đơn đề cử thực hiện như thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp ký hợp đồng hợp tác kinh doanh (BCC) với một đối tác để cùng vận hành một chuỗi cửa hàng cà phê nhưng không thành lập pháp nhân mới, xin hỏi việc phân chia lợi nhuận trước thuế hay sau thuế cần được thỏa thuận thế nào để hợp pháp về mặt kế toán, và ai sẽ là người xuất hóa đơn cho khách hàng?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên mang thai tháng thứ 7 làm đơn xin nghỉ việc vì lý do sức khỏe yếu không thể tiếp tục làm việc, cty yêu cầu phải báo trước 45 ngày theo đúng HĐLD không xác định thời hạn, điều này có đúng luật lao động không và nhân viên có quyền nghỉ việc ngay mà không phải bồi thường không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty chúng tôi mua bản quyền phần mềm của một công ty có trụ sở tại Singapore qua mạng internet để sử dụng cho hoạt động nội bộ, khoản chi trả này có thuộc đối tượng chịu thuế nhà thầu nước ngoài không, và cty phải kê khai, nộp thay thuế GTGT và thuế TNDN nhà thầu với thuế suất bao nhiêu?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một công ty muốn đăng ký thay đổi địa chỉ trụ sở chính sang một tỉnh khác, xin hỏi cty có phải thực hiện chốt thuế và quyết toán toàn bộ nghĩa vụ thuế tại tỉnh cũ trước khi nộp hồ sơ đăng ký kinh doanh tại tỉnh mới không, và thời gian hoàn thành toàn bộ thủ tục này mất bao lâu?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Trưởng phòng kinh doanh của công ty hết hạn hợp đồng lao động vào tháng sau, cty không muốn ký tiếp hợp đồng mới nên ra thông báo trước 15 ngày, tuy nhiên người này đang là thành viên Ban chấp hành Công đoàn cơ sở, cty có quyền không gia hạn hợp đồng lao động với họ không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp chế xuất nằm trong khu công nghiệp muốn thanh lý một số máy móc, thiết bị cũ vào thị trường nội địa Việt Nam, xin hỏi thủ tục hủy tờ khai hải quan cũ và mở tờ khai thay đổi mục đích sử dụng thế nào, và doanh nghiệp nội địa mua lại máy móc này phải nộp những loại thuế gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Công ty TNHH hai thành viên trở lên có một thành viên góp vốn bằng quyền sử dụng đất, hiện tại thành viên này muốn rút vốn bằng cách yêu cầu cty trả lại quyền sử dụng đất đó, điều này có được pháp luật cho phép không và thủ tục chuyển quyền sở hữu đất từ cty ngược lại cho cá nhân thực hiện ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty kinh doanh sàn thương mại điện tử muốn cập nhật điều khoản sử dụng ứng dụng áp dụng cho cả người bán và người mua, theo Luật Bảo vệ quyền lợi người tiêu dùng thì cty có phải thông báo trước bao nhiêu ngày và có bắt buộc phải đăng ký mẫu hợp đồng điều khoản này với Cục Cạnh tranh không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên bị cty kỷ luật sa thải do có hành vi đánh bạc tại nơi làm việc, người này không đồng ý và làm đơn khiếu nại lên Giám đốc vì cho rằng cty họp xử lý kỷ luật vắng mặt họ, xin hỏi quy trình họp xử lý kỷ luật lao động vắng mặt người lao động có hợp pháp không và cần đáp ứng điều kiện gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp của chúng tôi phát sinh khoản nợ xấu khó đòi từ một đối tác đã quá hạn 2 năm, chúng tôi muốn trích lập dự phòng nợ phải thu khó đòi đối với khoản nợ này thì cần chuẩn bị bộ hồ sơ chứng minh gồm những giấy tờ gì để cơ quan thuế chấp nhận là chi phí hợp lý khi tính thuế TNDN?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một công ty cổ phần muốn chào bán cổ phần riêng lẻ cho 5 nhà đầu tư chiến lược để tăng vốn điều lệ, xin hỏi phương án chào bán này có phải thông qua Ủy ban Chứng khoán Nhà nước phê duyệt không nếu công ty chưa phải là cty đại chúng, và thời gian hạn chế chuyển nhượng cổ phần này là bao lâu?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp kinh doanh chuỗi siêu thị mini muốn nhượng quyền thương mại (Franchise) mô hình này cho các cá nhân tại các tỉnh lẻ, xin hỏi cty có phải đăng ký hoạt động nhượng quyền thương mại với Bộ Công Thương hay Sở Công Thương không, và hợp đồng nhượng quyền cần có những nội dung bắt buộc nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên làm việc theo ca đêm từ 22h đến 6h sáng hôm sau, vào ngày nghỉ lễ Quốc khánh cty yêu cầu họ làm thêm ca đêm đó thì mức tiền lương nhân viên được hưởng sẽ tính thế nào, công thức tính lương làm thêm giờ vào ban đêm của ngày nghỉ lễ tết quy định cụ thể ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Công ty bị cơ quan thuế ra quyết định xử phạt vi phạm hành chính về thuế sau khi thanh tra, cty không đồng ý với kết luận thanh tra vì cho rằng cán bộ thuế tính sai doanh thu, cty có được quyền hoãn nộp tiền phạt để khiếu nại không và trình tự thủ tục khiếu nại quyết định hành chính về thuế thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một người nước ngoài muốn thành lập công ty 100% vốn nước ngoài tại Việt Nam để kinh doanh ngành nghề xuất khẩu nông sản, xin hỏi họ có phải chứng minh số dư tài khoản ngân hàng tương đương với số vốn dự định đầu tư không, và quy trình xin cấp giấy chứng nhận đăng ký đầu tư mất bao nhiêu ngày?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty muốn cho một công ty khác mượn tòa nhà văn phòng thuộc sở hữu của cty để ở và làm việc trong 6 tháng mà không thu tiền thuê, xin hỏi cơ quan thuế có quyền ấn định doanh thu tính thuế đối với giao dịch cho mượn tài sản miễn phí này không, và rủi ro pháp lý về thuế ở đây là gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên bị tai nạn lao động thương tật 35% do lỗi của cty không trang bị đầy đủ thiết bị bảo hộ, ngoài tiền trợ cấp do cơ quan BHXH chi trả thì công ty có trách nhiệm phải bồi thường thêm cho người lao động khoản tiền là bao nhiêu tháng lương, và mức lương làm căn cứ bồi thường tính như thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Đại hội đồng cổ đông cty cổ phần thông qua nghị quyết về việc đầu tư dự án mới với tỷ lệ biểu quyết tán thành là 61% tổng số phiếu biểu quyết của tất cả cổ đông dự họp, một nhóm cổ đông sở hữu 15% cổ phần không đồng ý và muốn kiện yêu cầu hủy nghị quyết này thì tòa án có chấp nhận không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp sản xuất linh kiện điện tử muốn áp dụng thời giờ làm việc đặc biệt, cụ thể là làm việc 10 tiếng/ngày và nghỉ bù vào tuần sau, phương án này có cần phải đăng ký với Bộ Lao động - Thương binh và Xã hội không, và có phải tổ chức hội nghị người lao động để lấy ý kiến không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty ký hợp đồng mua hàng hóa của một doanh nghiệp bỏ trốn khỏi địa chỉ kinh doanh (doanh nghiệp ma) từ năm trước, hiện tại cơ quan thuế gửi thông báo yêu cầu giải trình và bóc tách chi phí, cty cần cung cấp những chứng từ gì để chứng minh giao dịch mua bán là có thật để không bị phạt trốn thuế?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một công ty TNHH muốn chuyển nhượng một thương hiệu con cùng với toàn bộ tệp dữ liệu khách hàng cho một đơn vị khác, xin hỏi tài sản vô hình này có phải tiến hành thẩm định giá độc lập không, và việc chuyển nhượng dữ liệu cá nhân của khách hàng có vi phạm Nghị định bảo vệ dữ liệu cá nhân không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên bị tạm giam 3 tháng do liên quan đến một vụ án dân sự bên ngoài cty, trong thời gian này cty có được quyền tạm hoãn thực hiện hợp đồng lao động không, cty có phải trả lương hay đóng bảo hiểm xã hội cho nhân viên trong những tháng họ bị tạm giam hay không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp đầu tư xây dựng hạ tầng khu công nghiệp muốn cho một cty sản xuất thuê lại đất thô, bên thuê muốn tự đứng tên xin giấy phép xây dựng nhà xưởng thì trong hợp đồng thuê đất cần thỏa thuận những điều khoản gì về nghĩa vụ hoàn công và sở hữu tài sản trên đất sau này?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty cổ phần ký hợp đồng lao động với Giám đốc điều hành thuê ngoài, trong hợp đồng có điều khoản nếu cty chấm dứt hợp đồng trước hạn sẽ phải bồi thường 10 tháng lương, tuy nhiên Hội đồng quản trị ra nghị quyết miễn nhiệm giám đốc do kết quả kinh doanh kém, vậy điều khoản bồi thường này có hiệu lực ko?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Chúng tôi muốn nhập khẩu một dây chuyền công nghệ từ châu Âu về Việt Nam, xin hỏi dây chuyền này có thuộc danh mục máy móc thiết bị được miễn thuế nhập khẩu tạo tài sản cố định của dự án ưu đãi đầu tư không, và hồ sơ xin miễn thuế nhập khẩu cần nộp cho cơ quan hải quan gồm những gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Công ty TNHH một thành viên do một tổ chức làm chủ sở hữu muốn bổ nhiệm thêm một người đại diện theo pháp luật thứ hai, xin hỏi quyết định bổ nhiệm này do ai ký duyệt, và việc phân chia thẩm quyền, phạm vi đại diện giữa hai người này phải thể hiện trong điều lệ cty như thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên tự ý nghỉ việc hưởng chế độ ốm đau liên tục 2 tháng và có giấy xác nhận của bệnh viện, cty thấy ảnh hưởng đến tiến độ công việc nên muốn tuyển người khác thay thế cố định và chấm dứt hđld với nhân viên này, cty làm vậy có đúng luật không và có phải báo trước ko?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp logistics phát sinh khoản phạt vi phạm hợp đồng do giao hàng trễ cho đối tác với số tiền là 100 triệu, khoản tiền phạt vi phạm hợp đồng thương mại này có được tính vào chi phí hợp lý được trừ khi tính thuế TNDN không, và cty có phải xuất hóa đơn GTGT cho khoản tiền phạt này ko?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một nhà đầu tư nước ngoài muốn mua lại 51% cổ phần của một công ty sản xuất dược phẩm tại Việt Nam, xin hỏi họ có phải làm thủ tục đăng ký góp vốn, mua cổ phần tại Sở Kế hoạch và Đầu tư trước khi thực hiện giao dịch chuyển nhượng tiền không, và ngành này có bị hạn chế tiếp cận thị trường ko?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty muốn áp dụng hình thức phạt tiền 500k đối với nhân viên không đeo thẻ tên và đi muộn quá 15 phút, quy định này đã được ghi rõ trong Nội quy lao động và ký ban hành, xin hỏi nếu nhân viên kiện lên công đoàn thì điều khoản phạt tiền này trong nội quy lao động có bị tuyên vô hiệu không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp thực hiện chương trình chiết khấu thương mại cho đại lý dựa trên doanh số mua hàng cả năm, xin hỏi số tiền chiết khấu này phải lập hóa đơn điều chỉnh giảm giá cho các hóa đơn đã xuất trong năm hay lập một hóa đơn giảm giá riêng vào cuối năm, và cách kê khai thuế GTGT thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty cổ phần muốn hủy bỏ tư cách cổ đông sáng lập của một người do người này không nộp tiền góp vốn như cam kết sau 90 ngày, xin hỏi cty có phải tổ chức họp Đại hội đồng cổ đông để thông qua việc này không hay Hội đồng quản trị có quyền tự quyết định và điều chỉnh giảm vốn điều lệ?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên làm việc theo hợp đồng thời vụ 3 tháng bị tai nạn lao động tại xưởng sản xuất, cty cho rằng do họ là lao động thời vụ nên cty không có trách nhiệm đóng bhxh và không bồi thường chi phí điều trị, lập luận của cty có đúng pháp luật lao động hiện hành không và giải quyết ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Chúng tôi muốn đăng ký bảo hộ kiểu dáng công nghiệp cho mẫu thiết kế chai nước khoáng mới, xin hỏi quy trình thẩm định hình thức và thẩm định nội dung tại Cục Sở hữu trí tuệ mất bao lâu, và nếu có bên khác nộp đơn trùng vào cùng ngày thì quyền ưu tiên thuộc về ai?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty bất động sản muốn phát hành trái phiếu doanh nghiệp riêng lẻ ra thị trường để huy động vốn đầu tư dự án khu đô thị, xin hỏi điều kiện về năng lực tài chính, kết quả kinh doanh năm liền kề và tỷ lệ an toàn vốn tối thiểu của doanh nghiệp phát hành phải đáp ứng những tiêu chí cụ thể nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên nữ đang hưởng chế độ thai sản tháng thứ 4 thì làm đơn xin đi làm lại trước hạn do cần thu nhập, cty có được phép đồng ý cho họ đi làm lại không, và trong trường hợp này nhân viên có tiếp tục được hưởng trợ cấp thai sản từ cơ quan bảo hiểm xã hội song song với tiền lương không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp ký hợp đồng vay tiền của một cá nhân không phải là thành viên công ty với lãi suất 25%/năm, xin hỏi phần chi phí lãi vay này có được tính vào chi phí hợp lý được trừ khi tính thuế TNDN không, và mức lãi suất vay tối đa được pháp luật dân sự cho phép giữa cty và cá nhân là bao nhiêu?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một công ty TNHH muốn thanh lý tài sản là chiếc xe ô tô đứng tên công ty cho chính vợ của Giám đốc (giám đốc là đại diện pháp luật), giao dịch này có cần phải được Hội đồng thành viên phê duyệt không, và thủ tục định giá tài sản thanh lý để cơ quan thuế không bắt bẻ thực hiện thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty chúng tôi thuê một chuyên gia nước ngoài sang làm việc trong 2 tháng theo diện chịu thuế của cá nhân không cư trú, xin hỏi cty phải khấu trừ thuế TNCN của họ theo thuế suất toàn phần bao nhiêu %, và chi phí tiền vé máy bay khứ hồi do cty chi trả có tính vào thu nhập chịu thuế của chuyên gia này ko?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên làm việc tại cty được 11 tháng thì cty đơn phương chấm dứt hợp đồng lao động trái pháp luật, xin hỏi người lao động này có được hưởng trợ cấp thôi việc không, và mức bồi thường thiệt hại tối thiểu mà công ty phải chi trả theo quy định của Luật Lao động được tính toán như thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp muốn đăng ký thành lập một quỹ đầu tư khởi nghiệp sáng tạo, xin hỏi loại hình quỹ này có bắt buộc phải đăng ký thành lập dưới dạng một công ty cổ phần không, điều kiện về số lượng nhà đầu tư tối thiểu và quy trình quản lý vốn của quỹ được pháp luật quy định ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty muốn ký phụ lục hợp đồng lao động để chuyển nhân viên từ vị trí nhân viên hành chính sang làm nhân viên kinh doanh và giảm mức lương cơ bản xuống, nếu nhân viên không đồng ý ký vào phụ lục hợp đồng lao động này thì cty có quyền đơn phương chấm dứt hợp đồng lao động cũ hay không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp xuất khẩu nông sản sang thị trường Mỹ bị đối tác hủy hợp đồng không rõ lý do, gây thiệt hại nghiêm trọng về chi phí lưu kho bãi tại cảng, xin hỏi doanh nghiệp có thể khởi kiện ra cơ quan trọng tài thương mại nào tại Việt Nam, và thủ tục công nhận phán quyết trọng tài quốc tế ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một công ty mẹ ở nước ngoài chuyển giao công nghệ sản xuất độc quyền cho công ty con tại Việt Nam và có thu phí bản quyền hàng năm, xin hỏi khoản phí bản quyền này có phải chịu thuế nhà thầu tại Việt Nam không, và điều kiện để chi phí này được trừ khi tính thuế TNDN của công ty con gồm những gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Ủa bot ơi ngủ chưa hay vẫn đang trực thế?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chào buổi sáng tốt lành nha người anh em thiện lành.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Rep nhanh hộ cái coi đang gấp muốn chết luôn nè.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hệ thống này do công ty nào phát triển vậy bạn?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Cám ơn nha, b giải thích dễ hiểu dữ thần luôn.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thôi ko hỏi nữa đâu, càng nghe càng nhức đầu á.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chán b ghê, nói dông dài nãy giờ chẳng trúng trọng tâm.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Wow, câu trả lời xuất sắc quá, xứng đáng 100 điểm!",
+    "label": "chitchat"
+  },
+  {
+    "text": "Tạm biệt cưng, hẹn gặp lại vào ngày mai nha.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Cho hỏi ngoài lề tí, bot có biết xem bói ko vậy?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ái chà, dạo này nâng cấp lên phiên bản mới nhìn thông minh hẳn.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Haha b bớt giỡn lại giùm tớ cái nha.",
+    "label": "chitchat"
+  },
+  {
+    "text": "App chạy mượt đét, thả tim cho đội ngũ dev nhé.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hello, có ai online đó ko giải đáp giùm mình với.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ok b, để mình lưu lại thông tin này rồi check sau.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ui là trời, sao luật pháp gì mà rắc rối nhức não quá b ơi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thôi bỏ qua đi, nói chuyện phiếm tí cho đỡ stress nào.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bot có tài khoản Facebook hay Zalo gì ko ta?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chúc b có một buổi tối ấm áp bên gia đình nhé.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Nói gì nghe tào lao bí đao quá hà, ko tin được.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Tks b nhiều nhen, cứu cánh cho dân kế toán tụi mình.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chào bot iu, hôm nay có gì vui ko kể nghe coi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Dốt thế không biết, thế mà cũng tự xưng là AI pháp lý.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ơ sao tự nhiên hệ thống bị lag rồi nè b?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bái bai nha, đi làm việc tiếp đây ko sếp chửi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Dạ em hiểu rồi, đa tạ sếp bot nhé.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Nghe b nói xong tui kiểu lùng bùng lỗ tai luôn á.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thả tim mỏi tay cho quả câu trả lời chất lượng này.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ủa alo, nãy giờ tui hỏi một đằng b trả lời một nẻo vậy?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Robot mà nói chuyện cũng có duyên gớm nhỉ.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chúc mừng tuần mới làm việc bùng nổ đơn hàng nha.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Gút chóp b ơi, giải đáp đúng cái tớ đang tìm.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thôi nha, out đây, luyên thuyên mệt quá.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chào cả nhà, chúc mọi người một ngày may mắn.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hỏi chơi thôi chứ tớ cũng chẳng cần làm gì đâu.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ko hỉu b đang viết cái gì luôn á, dịch giùm cái.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Okela b nha, thế là quá rõ ràng rồi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bot có người yêu chưa hay vẫn đang ế giống tớ?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Nói năng cẩn thận tí nha bot, tui khó tính lắm đó.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Lặp lại giùm cái đoạn vừa rồi đi b ơi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Viết ngắn thôi, thời buổi này ai rảnh đọc văn tế.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ầy gù, làm sếp doanh nghiệp khổ quá b nhỉ.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ăn bánh uống trà tí ko robot?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Tuyệt cú mèo luôn b ơi, quá xịn.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chào buổi trưa nha, ăn cơm chưa b?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Xàm quá đi mất, tắt ứng dụng đây.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Biết thì thưa thớt ko biết thì dựa cột mà nghe nha.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ui đỉnh chóp của đỉnh chóp luôn b ơi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ok cám ơn b nhìu, ghi nhận tinh thần.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hihi, nói chuyện với b vui ghê á.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hôm nay là ngày mấy âm lịch rồi b nhỉ?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bot ở đâu tớ chạy qua mời cà phê hậu tạ nè.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Trời đất ơi, thiệt vậy luôn hả b?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Có tin tức gì hot về thị trường hôm nay ko b?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Nói tóm lại một câu cho dễ nhớ coi nè.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thà đi hỏi Google còn nhanh hơn hỏi b á.",
+    "label": "chitchat"
+  },
+  {
+    "text": "B hữu ích thật sự, đỡ tốn tiền thuê luật sư.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chào b, lâu ngày ko gặp vẫn khỏe chứ?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thôi đừng nói nữa ghen, nhức đầu lắm rồi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "U là trời, cái hệ thống trả lời đỉnh cao vậy.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ahihi đồ ngốc, trả lời sai bét nhè rồi kìa.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Gút chóp b iu, mãi đỉnh nha.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ủa rồi kế tiếp phải làm cái gì nữa b?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chờ b rep chắc cty tui phá sản mất tiêu r.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Nghe cũng bùi tai á, để xem thế nào đã.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ủa cái gì kỳ cục kẹo vậy trời?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hẹn gặp b vào một ngày đẹp trời khác nha.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Tks b iu vếu nha, chúc ngày mới tốt lành.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chúc mừng sinh nhật bot tròn 2 tuổi nhé.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hết nói nổi với cái kiểu tư vấn nửa vời này.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Vớ vẩn hết sức, chả được tích sự gì cho đời.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ê có biết tấu hài ko làm một bài xem nào.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chào bạn hiền, tớ cần b hỗ trợ tí việc.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Rất vui được kết nối với trí tuệ nhân tạo.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ái chà, trình độ của b cũng ko phải dạng vừa đâu.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hỏi thử lòng b tí thôi chứ tớ rành luật lắm.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ngoan ngoãn nghe lời rùi tớ thương nha bot.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bot làm việc ko nghỉ lễ luôn hả, chăm chỉ thế.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Vui lên đi, đời có bao lâu mà hững hờ.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Cạn lời, trả lời thế này thì chịu chết rồi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ok b, duyệt phương án phối hợp này nha.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thế thôi b nhe, tớ bận đi họp rùi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Ui bậy bạ quá đi, ai lại nói thế bao giờ.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Gặp lại sau nhe b hiền, bái bai.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hỏi vài câu vu vơ xả stress tí thôi mà.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Làm sao để trúng số độc đắc hả bot ơi?",
+    "label": "chitchat"
+  },
+  {
+    "text": "Đỉnh chóp của xã hội luôn, bái phục bái phục.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chào sếp tổng nha, chúc sếp vạn sự như ý.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Nghe danh b đã lâu nay mới có dịp diện kiến.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Chấm một cái lấy tương tác coi nè b.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Bớ người ta bot bắt nạt người dùng nè.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Tào lao hết sức tưởng thế nào hóa ra thường thôi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Cảm ơn b vì tất cả những điều tuyệt vời này.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thôi tớ đi ngủ đây, muộn lắm rồi, bye.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Lêu lêu đồ lười biếng trả lời chậm rì.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Đồng ý 100% với ý kiến của b luôn á.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Haha chuẩn cơm mẹ nấu luôn rồi b ơi.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Hỏi cái này tế nhị tí đừng giận nha.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Kết thúc phiên làm việc ở đây nhé b.",
+    "label": "chitchat"
+  },
+  {
+    "text": "Thuế suất thuế giá trị gia tăng đối với dịch vụ ăn uống năm 2026 là bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Ký hđld thử việc với vị trí nhân viên văn phòng tối đa mấy tháng b?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Nghỉ thai sản đối với lao động nam có vợ sinh con được mấy ngày?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Công ty TNHH 2 thành viên trở lên cần tối thiểu bao nhiêu thành viên góp vốn?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt chậm nộp tờ khai thuế TNDN quá hạn từ 1 đến 30 ngày?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hồ sơ đăng ký bảo hộ quyền tác giả gồm những biểu mẫu nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty cổ phần có được tự ý giảm vốn điều lệ không b?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hạn nộp hồ sơ quyết toán thuế TNCN hàng năm là ngày nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức đóng bhxh bắt buộc của người sử dụng lao động hiện tại là nhiêu %?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thế nào là người đại diện theo ủy quyền của thành viên công ty?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thành lập địa điểm kinh doanh cùng tỉnh cần nộp hồ sơ ở đâu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Vốn điều lệ tối thiểu để mở công ty dịch vụ bảo vệ là bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Người lao động xác định thời hạn đơn phương chấm dứt HĐLD báo trước mấy ngày?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty không đóng bảo hiểm y tế cho người lao động bị phạt bao nhiêu tiền?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Văn phòng đại diện thương nhân nước ngoài có được tuyển dụng lao động trực tiếp ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Đăng ký thay đổi địa chỉ trụ sở chính cùng quận mất mấy ngày?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức lương tối thiểu vùng của Vùng 2 năm nay là bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Đại hội đồng cổ đông họp thường niên tối thiểu mấy lần một năm?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Bằng độc quyền giải pháp hữu ích có thời hạn bảo hộ là bao nhiêu năm?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt vi phạm quy định về an toàn lao động dẫn đến tai nạn?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Doanh nghiệp FDI có được nhận chuyển nhượng đất nông nghiệp ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Chi phí mua xe ô tô trên 1.6 tỷ có được trừ khi tính thuế TNDN ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thuế suất thuế thu nhập cá nhân đối với thu nhập từ trúng thưởng là mấy %?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty muốn đổi tên doanh nghiệp thì nộp hồ sơ cho cơ quan nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hạn nộp báo cáo tình hình sử dụng hóa đơn điện tử theo quý?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Lương làm thêm giờ vào ngày nghỉ lễ, tết hưởng lương ít nhất bao nhiêu %?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hồ sơ đăng ký người phụ thuộc giảm trừ gia cảnh gồm những gì?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Doanh nghiệp mới thành lập năm 2026 có được miễn thuế môn bài ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty có được giữ học bạ gốc của người lao động khi ký hđld?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức xử phạt hành vi quấy rối tình dục tại nơi làm việc là bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời gian thử việc của người lao động làm công việc chuyên môn kỹ thuật cao?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cơ quan nào cấp Giấy chứng nhận đăng ký quyền tác giả tại VN?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Doanh nghiệp có bắt buộc phải ban hành Quy chế dân chủ cơ sở ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức đóng đoàn phí công đoàn của đoàn viên là bao nhiêu % lương?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty tạm ngừng kinh doanh tối đa được bao nhiêu năm liên tục?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thuế suất thuế nhà thầu đối với hoạt động xây dựng không bao thầu nguyên vật liệu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Trợ cấp mất việc làm tính theo thời gian làm việc như thế nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Xin cấp lại Giấy chứng nhận đăng ký đầu tư bị mất ở đâu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cổ đông sở hữu bao nhiêu % cổ phần phổ thông có quyền đề cử người vào HĐQT?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hạn nộp tờ khai thuế TNCN theo tháng là ngày nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Doanh nghiệp công nghệ cao có được giảm thuế môn bài năm đầu ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty cổ phần dưới 11 cổ đông có bắt buộc phải có Ban kiểm soát ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hợp đồng lao động điện tử có giá trị như hợp đồng giấy ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Tiền phụ cấp xăng xe có phải tính vào thu nhập chịu thuế TNCN ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức đóng bảo hiểm thất nghiệp của người sử dụng lao động là mấy %?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hợp đồng lao động xác định thời hạn tối đa là bao nhiêu tháng?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty chậm đóng bhxh bao lâu thì bị cơ quan thuế cưỡng chế hóa đơn?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hóa đơn điện tử viết sai tên công ty mua hàng xử lý thế nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Người nước ngoài làm việc tại VN không có GPLĐ bị phạt thế nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Chi phí khấu hao công cụ dụng cụ tối đa không quá bao nhiêu năm?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức đóng bảo hiểm tai nạn lao động tự nguyện hiện nay là bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức xử phạt hành vi không niêm yết giá hàng hóa tại cửa hàng?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hồ sơ thay đổi ngành nghề kinh doanh của cty cổ phần cần gì?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Lao động nữ mang thai từ tháng thứ mấy được giảm giờ làm?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty có được phạt tiền thay cho hình thức xử lý kỷ luật lao động ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hiệu xử lý kỷ luật lao động đối với hành vi tham ô là mấy tháng?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Doanh nghiệp có được thanh toán hợp đồng nội địa bằng USD không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hạn nộp tờ khai thuế GTGT theo quý là ngày nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức trích lập quỹ phát triển khoa học công nghệ của cty tư nhân?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt đối với hành vi khai sai dẫn đến thiếu số tiền thuế phải nộp?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hạn góp vốn cty TNHH 1 thành viên kể từ ngày cấp đăng ký kinh doanh?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty cổ phần có được quyền mua lại bao nhiêu % tổng số cổ phần đã bán?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức giảm trừ gia cảnh cho người phụ thuộc hiện tại là bao nhiêu tiền?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hợp đồng thương mại quốc tế có bắt buộc phải dịch sang tiếng Việt ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hộ kinh doanh có được mở chi nhánh ở tỉnh khác không b?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hạn nộp báo cáo tổng hợp tình hình tai nạn lao động hàng năm?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hành vi xâm phạm quyền đối với nhãn hiệu bị xử lý hành chính thế nào?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hồ sơ đăng ký giảm vốn điều lệ cty cổ phần gồm những gì?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Doanh nghiệp xã hội phải giữ lại bao nhiêu % lợi nhuận để tái đầu tư?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt khi cty sử dụng lao động chưa thành niên làm công việc nặng nhọc?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty có được quyền đơn phương chấm dứt hđld vì lý do dịch bệnh ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hóa đơn trên 20 triệu thanh toán bằng ví điện tử cty được khấu trừ thuế ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hạn bảo hộ đối với quyền tác giả tác phẩm văn học là bao lâu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt hành vi không thông báo tài khoản ngân hàng với cơ quan thuế?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Chi phí mua xe ô tô đưa đón công nhân có bị khống chế mức 1.6 tỷ ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cổng thông tin quốc gia về đăng ký doanh nghiệp có địa chỉ web là gì?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Lao động nam có được nghỉ thai sản khi vợ sinh đôi không b?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Văn phòng đại diện hạch toán phụ thuộc có phải nộp tờ khai thuế TNDN ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt tiền hành vi bán hàng hóa quá hạn sử dụng ghi trên nhãn?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Nhà đầu tư nước ngoài có được mua 100% vốn cty sản xuất quần áo ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty không tổ chức tập huấn PCCC cho nhân viên bị phạt bao nhiêu tiền?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Doanh nghiệp nông nghiệp được hoãn đóng bhxh tối đa bao nhiêu tháng?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hợp đồng điện tử ký bằng chữ ký định danh cá nhân có hợp pháp ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thành viên cty hợp danh có quyền tự ý rút vốn khỏi cty không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Tiền trợ cấp thôi việc có phải chịu thuế thu nhập cá nhân không b?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt hành vi không đăng ký thay đổi thông tin đăng ký thuế?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hồ sơ đăng ký tài khoản giao dịch điện tử với cơ quan BHXH gồm gì?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty có được sa thải nhân viên nghỉ việc không lý do 3 ngày liên tục ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hạn giải quyết hồ sơ hoàn thuế GTGT đối với hàng xuất khẩu là bao lâu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức xử phạt hành vi không hủy hóa đơn giấy sau khi chuyển sang hóa đơn điện tử?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời hạn bảo hộ sáng chế độc quyền là bao nhiêu năm tính từ ngày nộp đơn?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty có được ký hợp đồng thử việc kinh doanh 2 lần với 1 nhân viên ko?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Người đại diện pháp luật thay đổi số hộ chiếu có phải làm lại đăng ký kinh doanh?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Doanh nghiệp có được tự đặt in hóa đơn GTGT xuất khẩu không b?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt khi cty đại chúng công bố thông tin sai lệch trên thị trường chứng khoán?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Thời gian tối đa để hòa giải viên lao động tiến hành hòa giải tranh chấp?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Cty dịch vụ bảo vệ có bắt buộc phải ký quỹ ngân hàng không?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Chi phí mua bảo hiểm sức khỏe cho nhân viên tính vào chi phí hợp lý tối đa bao nhiêu?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Hội đồng quản trị cty cổ phần họp hợp lệ khi có bao nhiêu thành viên dự họp?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Mức phạt tiền hành vi không lập ban kiểm soát theo quy định điều lệ?",
+    "label": "simple_query"
+  },
+  {
+    "text": "Công ty tôi muốn sa thải một nhân viên làm giả bằng cấp để vào cty làm việc được 1 năm, nhưng hiện tại người này đang nuôi con nhỏ 10 tháng tuổi, xin hỏi cty có xử lý kỷ luật sa thải được không và quy trình thực hiện như thế nào để đúng luật lao động?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp FDI của Nhật muốn bổ sung ngành nghề kinh doanh bất động sản và chuyển đổi trụ sở chính sang tỉnh khác hạch toán độc lập, hỏi có làm chung một bộ hồ sơ gộp được không, các loại giấy phép con và quy trình nộp tại cơ quan nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cổ đông sáng lập cty cổ phần muốn chuyển nhượng ưu đãi biểu quyết cho người ngoài sau 2 năm thành lập nhưng các cổ đông khác phản đối, trường hợp này luật doanh nghiệp xử lý thế nào và thuế thu nhập cá nhân từ chuyển nhượng cổ phần này tính ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp chậm nộp bảo hiểm xã hội và bảo hiểm y tế cho công nhân suốt 8 tháng do dịch bệnh, nay có lao động bị tai nạn lao động gãy tay tại xưởng thì cơ quan bhxh có chi trả chi phí điều trị không, cty chịu trách nhiệm bồi thường và khắc phục số tiền nợ bảo hiểm như thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Thành viên góp vốn 45% trong cty TNHH 2 thành viên tự ý ký hợp đồng vay vốn ngân hàng bằng cách dùng con dấu cty khi chưa có nghị quyết Hội đồng thành viên, xin hỏi hợp đồng vay này có hiệu lực pháp lý không và cty có trách nhiệm phải trả nợ không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty mua một chiếc xe bán tải trị giá 1.8 tỷ đồng vừa để chở hàng vừa đưa đón chuyên gia nước ngoài, xin hỏi tiền thuế GTGT đầu vào được khấu trừ toàn bộ hay bị khống chế, và chi phí trích khấu hao xe này khi tính thuế TNDN hàng năm được xử lý ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Người lao động ký HĐLD không xác định thời hạn nhưng đi làm tự ý nghỉ việc 4 ngày không lý do, sau đó gửi email xin nghỉ việc luôn không báo trước 45 ngày, cty có quyền phạt vi phạm thời hạn báo trước bằng cách trừ vào tiền lương tháng cuối và không trả sổ BHXH ko?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Chúng tôi muốn thành lập chi nhánh hạch toán độc lập tại Đà Nẵng cho công ty mẹ ở Hà Nội, chi nhánh này tự ký hợp đồng mua bán và tự xuất hóa đơn GTGT, xin hỏi nghĩa vụ kê khai thuế TNDN, thuế GTGT và lệ phí môn bài sẽ thực hiện tại cơ quan thuế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Công ty phát hiện nhân viên phòng R&D lấy cắp công thức sản phẩm độc quyền đem bán cho cty đối thủ cạnh tranh, chúng tôi có thể lập tức đình chỉ công việc và sa thải họ không, quy trình lập biên bản và yêu cầu cơ quan chức năng xử lý hành vi xâm phạm bí mật kinh doanh cần những gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một doanh nghiệp Hàn Quốc muốn góp vốn vào cty VN bằng giá trị công nghệ phần mềm điều hành hệ thống thông minh, xin hỏi quy trình thẩm định giá trị tài sản vô hình này được pháp luật quy định thế nào, hồ sơ đăng ký thay đổi thành viên góp vốn tại Sở KHĐT cần những gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty phát sinh hóa đơn mua hàng từ đối tác trị giá 50 triệu đồng nhưng do hệ thống ngân hàng lỗi nên kế toán đã dùng tài khoản cá nhân của mình để chuyển khoản vào tài khoản cty đối tác, hóa đơn này có được khấu trừ thuế GTGT đầu vào và tính vào chi phí hợp lý thuế TNDN ko?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Khi công ty TNHH 2 thành viên tiến hành thủ tục giải thể tự nguyện, thứ tự ưu tiên thanh toán các khoản nợ thuế, nợ lương và nợ nhà cung cấp ra sao, nếu tài sản cty sau khi thanh lý vẫn không đủ trả nợ thì các thành viên góp vốn có phải bỏ tiền túi ra thanh toán không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên thử việc vị trí trưởng phòng trong 2 tháng, hết thời gian thử việc cty đánh giá không đạt nên chấm dứt hợp đồng, nhân viên khiếu nại đòi cty phải trả lương bằng 100% lương chính thức và đóng bhxh cho cả 2 tháng thử việc đó, hỏi yêu cầu này có đúng luật lao động ko?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty cổ phần có 5 cổ đông, nay 1 cổ đông sở hữu 25% cổ phần muốn rút vốn bằng cách yêu cầu cty mua lại số cổ phần của mình nhưng giá thỏa thuận quá cao so với giá trị sổ sách, trường hợp này Hội đồng quản trị có quyền từ chối mua không và cổ đông đó có được tự ý bán cho người ngoài ko?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Chúng tôi phát hiện một doanh nghiệp khác sử dụng tên thương mại trùng với nhãn hiệu đã được bảo hộ độc quyền của cty chúng tôi để mở chuỗi cửa hàng, chúng tôi cần gửi đơn yêu cầu xử lý vi phạm đến cơ quan nào, trình tự giám định sở hữu trí tuệ tại VIPRI thực hiện ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp dệt may tổ chức làm thêm giờ cho công nhân lên tới 45 giờ trong một tháng do đơn hàng xuất khẩu gấp, xin hỏi mức xử phạt hành chính đối với hành vi vượt quá số giờ làm thêm quy định là bao nhiêu, và cty có phải thông báo bằng văn bản cho Sở Lao động thương binh xã hội không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty muốn chuyển đổi loại hình từ Công ty TNHH 1 thành viên sang Công ty TNHH 2 thành viên trở lên bằng cách tiếp nhận thêm thành viên mới góp vốn, xin hỏi mã số thuế cty có thay đổi không, nghĩa vụ nộp tờ khai quyết toán thuế TNDN đến thời điểm chuyển đổi quy định thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Chuyên gia người nước ngoài làm việc tại cty theo diện di chuyển nội bộ doanh nghiệp từ tập đoàn mẹ sang chi nhánh VN, xin hỏi đối tượng này có thuộc diện miễn giấy phép lao động không, và việc kê khai quyết toán thuế TNCN đối với thu nhập chi trả tại nước ngoài thực hiện thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Công ty sản xuất thực phẩm đóng hộp muốn đăng ký chứng nhận HACCP và xin giấy phép vệ sinh an toàn thực phẩm, xin hỏi điều kiện cơ sở vật chất nhà xưởng bắt buộc phải đáp ứng những tiêu chuẩn gì, và mức phạt nếu bị kiểm tra phát hiện lỗi vi phạm quy trình bảo quản là bao nhiêu?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Người đại diện theo pháp luật duy nhất của công ty cổ phần đột ngột qua đời mà không để lại di chúc hay ủy quyền, hiện tại cty cần ký chứng từ ngân hàng để trả lương nhân viên thì ai có thẩm quyền ký thay thế, quy trình họp Hội đồng quản trị bầu người đại diện pháp luật mới thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp xây dựng của chúng tôi muốn thuê lại lao động từ một cty cung ứng nhân lực để làm công việc giàn giáo công trình, xin hỏi công việc này có nằm trong danh mục được phép cho thuê lại lao động ko, và nếu xảy ra sự cố sập giàn giáo thì cty bên tôi hay bên cung ứng phải chịu trách nhiệm?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty dự định chi trả tiền thưởng năng suất cuối năm cho nhân viên bằng hiện vật là sản phẩm do chính cty sản xuất ra, xin hỏi giá trị sản phẩm thưởng này có được tính vào chi phí được trừ khi tính thuế TNDN ko, và cty có phải xuất hóa đơn GTGT đầu ra cho số sản phẩm thưởng này không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một công ty con nắm giữ 100% vốn bởi công ty mẹ muốn nhượng lại một bất động sản là quyền sử dụng đất cho công ty mẹ với giá thấp hơn giá thị trường, giao dịch này có bị cơ quan thuế ấn định thuế do vi phạm quy định giao dịch liên kết không, và rủi ro pháp lý cần phòng ngừa là gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Người lao động trên đường lái xe máy từ nhà đến cty làm việc bị một xe tải vượt ẩu đâm trúng chấn thương sọ não, xin hỏi trường hợp này có được hội đồng giám định y khoa xác định là tai nạn lao động ko, trách nhiệm chi trả chi phí nằm viện của cty và trợ cấp bhxh tính như thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp FDI muốn thuê lại đất gắn liền với nhà xưởng có sẵn trong khu công nghiệp để hoạt động sản xuất linh kiện, xin hỏi bên tôi có được cấp Giấy chứng nhận quyền sở hữu công trình xây dựng (sổ hồng nhà xưởng) không, và điều kiện để cty được cho thuê lại một phần nhà xưởng dư thừa?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty cổ phần thực hiện chương trình phát hành cổ phiếu thưởng cho ban điều hành từ quỹ đầu tư phát triển, xin hỏi giá trị cổ phiếu thưởng này có phải chịu thuế TNCN từ tiền lương tiền công ngay khi nhận ko, hay chờ đến khi cổ đông thực hiện bán cổ phiếu trên sàn mới tính thuế?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên phòng thu mua tự ý thông đồng với nhà cung cấp nâng khống giá nguyên vật liệu để ăn chia phần trăm chênh lệch, gây thiệt hại cho công ty 200 triệu đồng, về mặt pháp lý công ty có quyền tịch thu toàn bộ tiền lương, tiền thưởng chưa chi trả của họ để đền bù thiệt hại không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Chúng tôi nộp thông báo tạm ngừng kinh doanh cty muộn quá hạn 15 ngày do giám đốc đi công tác nước ngoài, xin hỏi mức xử phạt tiền tối đa là bao nhiêu, và trong thời gian tạm ngừng này cty có phải thực hiện nộp báo cáo tình hình sử dụng lao động định kỳ cho cơ quan quản lý ko?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Dự án đầu tư của doanh nghiệp đã được phê duyệt chủ trương đầu tư nhưng do chậm tiến độ giải ngân vốn 2 năm nên bị cơ quan quản lý lập biên bản, xin hỏi dự án có bị chấm dứt hoạt động hoàn toàn không, và cty cần chứng minh những lý do khách quan nào để được xin gia hạn tiến độ?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty thay đổi địa chỉ trụ sở chính từ quận 1 sang quận 7 TP.HCM, xin hỏi quy trình thực hiện chốt sổ bảo hiểm xã hội tại quận cũ và báo tăng tại quận mới như thế nào, có phải làm thủ tục hủy dải hóa đơn điện tử cũ đang sử dụng để phát hành dải hóa đơn mới theo địa chỉ mới không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp sản xuất phần mềm được hưởng ưu đãi thuế TNDN áp dụng thuế suất 10% trong 15 năm, năm nay cty phát sinh thêm thu nhập từ lãi tiền gửi ngân hàng và thanh lý phế liệu, hỏi các khoản thu nhập bổ sung này có được hưởng mức thuế suất ưu đãi 10% hay phải nộp theo thuế suất thông thường?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên làm việc theo hđld xác định thời hạn 12 tháng, làm được 10 tháng thì gửi đơn xin nghỉ việc trước 30 ngày, tuy nhiên sau 10 ngày họ gửi đơn xin rút lại ý định nghỉ việc nhưng cty đã tuyển người khác thay thế nên không đồng ý, việc cty cho nhân viên này nghỉ việc theo đơn cũ có đúng luật ko?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty muốn đăng ký giảm vốn điều lệ do thành viên góp vốn bằng tài sản là xe ô tô nhưng sau đó không làm thủ tục sang tên xe cho công ty theo đúng thời hạn luật định, xin hỏi hồ sơ nộp lên Sở KHĐT cần chứng từ chứng minh nào, và mức phạt vi phạm thời hạn chuyển quyền sở hữu tài sản góp vốn?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một doanh nghiệp sản xuất muốn ký hợp đồng dịch vụ tư vấn kỹ thuật với một cá nhân không đăng ký kinh doanh để bảo trì máy móc trong 6 tháng, xin hỏi chi phí tiền thù lao chi trả hàng tháng có bị cơ quan thuế xuất toán không, cty phải khấu trừ thuế TNCN 10% hay tính theo biểu lũy tiến?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp vận tải bị hành khách khởi kiện đòi bồi thường thiệt hại về sức khỏe do tài xế ngủ gật gây tai nạn lật xe trên đường cao tốc, xin hỏi cty có được viện dẫn lý do lỗi hoàn toàn thuộc về cá nhân tài xế để miễn trừ trách nhiệm bồi thường dân sự đối với hành khách hay không?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Thành viên góp vốn sở hữu 20% vốn điều lệ cty TNHH liên tục có hành vi quấy phá, xúi giục khách hàng hủy hợp đồng với cty gây thiệt hại lớn, Hội đồng thành viên có quyền tổ chức họp bỏ phiếu biểu quyết khai trừ thành viên này ra khỏi cty không, và thủ tục mua lại phần vốn góp bắt buộc ra sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty muốn tổ chức chương trình khuyến mại tặng quà không thu tiền của khách hàng đi kèm với việc mua sản phẩm chính, tổng giá trị quà tặng là 300 triệu đồng, xin hỏi cty phải làm thủ tục thông báo với Sở Công Thương nơi tổ chức khuyến mại trước bao nhiêu ngày, và cách hạch toán thuế GTGT quà tặng?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Nhân viên giao hàng của cty chạy xe quá tốc độ tông trúng người đi bộ băng qua đường đúng vạch quy định khiến nạn nhân bị gãy chân, xin hỏi về mặt luật hình sự và dân sự, công ty có trách nhiệm nộp tiền phạt vi phạm giao thông thay cho nhân viên ko, và nghĩa vụ bồi thường dân sự phân định thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp FDI muốn ký kết hợp đồng vay vốn trung hạn từ một quỹ đầu tư tài chính ở nước ngoài không có chi nhánh tại VN, xin hỏi khoản vay này có bắt buộc phải đăng ký tài khoản vay trả nợ nước ngoài với Ngân hàng Nhà nước ko, và điều kiện để chi phí lãi vay được tính là chi phí hợp lý?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty tiến hành chia tách một công ty TNHH thành hai công ty độc lập, toàn bộ nghĩa vụ thuế, công nợ nhà cung cấp và quyền lợi của người lao động đang làm việc tại các bộ phận bị chia tách sẽ được bàn giao và phân chia trách nhiệm pháp lý giữa hai công ty mới theo trình tự thủ tục nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Giám đốc chi nhánh được tổng công ty ủy quyền bằng văn bản để quản lý điều hành hoạt động kinh doanh tại chi nhánh, trong quá trình làm việc ông này tự ý ký hợp đồng bảo lãnh khoản vay cho một cty khác bằng con dấu chi nhánh, xin hỏi tổng công ty có chịu trách nhiệm liên đới trả nợ thay ko?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp trả lương cho công nhân theo hình thức khoán khối lượng sản phẩm công việc, vào ngày nghỉ lễ Giỗ Tổ Hùng Vương công nhân được nghỉ làm việc, xin hỏi tiền lương trả cho người lao động trong ngày nghỉ lễ này được tính theo lương khoán trung bình của tháng trước hay tính thế nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty phát hiện giám đốc tài chính có hành vi móc nối với nhà thầu xây dựng bên ngoài nâng khống khối lượng thi công nhà xưởng để rút ruột tiền cty, hiện người này đã bỏ trốn, cty muốn khởi tố vụ án hình sự thì cần chuẩn bị hồ sơ chứng cứ và nộp đơn tại cơ quan cảnh sát điều tra cấp nào?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Chúng tôi nhận chuyển nhượng lại toàn bộ một doanh nghiệp tư nhân từ chủ sở hữu cũ và muốn chuyển đổi sang loại hình Công ty TNHH 1 thành viên, xin hỏi các khoản nợ thuế và nghĩa vụ bảo hiểm xã hội còn tồn đọng của doanh nghiệp tư nhân cũ sẽ do ai chịu trách nhiệm pháp lý cao nhất?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty kinh doanh bất động sản ký hợp đồng góp vốn kèm quyền mua căn hộ tương lai với khách hàng khi dự án mới chỉ có văn bản chấp thuận chủ trương đầu tư, hợp đồng này có nguy cơ bị vô hiệu theo Luật Kinh doanh BĐS mới ko, và cty sẽ chịu mức xử phạt hành chính thế nào nếu bị thanh tra?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Người lao động đã tham gia đóng bhxh bắt buộc được 18 năm tại cty và bị tai nạn sinh hoạt ngoài giờ làm việc dẫn đến mất sức lao động 65%, họ muốn làm thủ tục nghỉ hưu sớm để nhận lương hưu hàng tháng thì mức hưởng được tính giảm trừ thế nào, và cty có phải chi trả trợ cấp mất việc làm ko?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp thuê một sàn thương mại của cá nhân để làm cửa hàng kinh doanh với giá trần là 250 triệu/năm, thỏa thuận cty chịu trách nhiệm kê khai nộp thuế thay, hỏi cty phải lập tờ khai thuế môn bài, thuế GTGT, thuế TNCN cho cá nhân cho thuê đất ở đâu và cần những bộ hồ sơ chứng từ gì?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Một doanh nghiệp sản xuất mỹ phẩm tự ý lấy bài đánh giá và video trải nghiệm sản phẩm của một TikToker nổi tiếng để chạy quảng cáo Facebook Ads khi chưa có thỏa thuận bằng văn bản, cty có nguy cơ bị kiện vi phạm quyền hình ảnh cá nhân không, mức phạt và tiền bồi thường thiệt hại tính sao?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Cty cổ phần họp Đại hội đồng cổ đông bất thường để thông qua việc bãi nhiệm Chủ tịch HĐQT, tuy nhiên biên bản kiểm phiếu bị một nhóm cổ đông phản đối vì cho rằng có sự gian lận trong việc tính tỷ lệ biểu quyết trực tuyến, xin hỏi nhóm này có quyền yêu cầu Tòa án đình chỉ nghị quyết ĐHĐCĐ ko?",
+    "label": "complex_query"
+  },
+  {
+    "text": "Doanh nghiệp sản xuất hóa chất bị cơ quan thanh tra môi trường lập biên bản vi phạm do hàm lượng khí thải vượt quy chuẩn kỹ thuật cho phép 3 lần, xin hỏi mức xử phạt tiền tối đa đối với pháp nhân thương mại trong trường hợp này là bao nhiêu, và cty có bị buộc phải tạm ngừng hoạt động sản xuất ko?",
+    "label": "complex_query"
+  }
+]

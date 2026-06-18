@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: legal-ai
+Version: 0.1.0
+Summary: Vietnamese Legal RAG Chatbot using LangGraph and Qdrant
+Author-email: Khang <khangrubikcuber@gmail.com>
+Requires-Python: >=3.11
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pydantic
+Requires-Dist: langgraph
+Requires-Dist: qdrant-client
+Requires-Dist: rank-bm25
+Requires-Dist: streamlit
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: black; extra == "dev"

@@ -1,0 +1,46 @@
+app:
+  project_name: "Vietnam Enterprise LegalTech"
+  version: "2.0.0"
+  debug: true
+
+gemini:
+  model: "gemini-2.5-flash"
+  summary_model: "gemini-2.5-flash"
+
+ollama:
+  base_url: "http://localhost:11434"
+  model: "qwen3:8b"
+  summary_model: "qwen3:8b"
+  embed_model: "nomic-embed-text"
+
+rag:
+  reranker: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+
+graph_provider: "gemini" # "gemini" | "ollama"
+memory_provider: "gemini" # "gemini" | "ollama"
+
+embedding:
+  provider: "huggingface"
+  google: "text-embedding-004"
+  ollama: "nomic-embed-text"
+  huggingface: "BAAI/bge-m3"
+
+retrieval:
+  threshold: 0.7
+  top_k: 5
+
+storage:
+  data_dir: "data"
+  data_csv_or_excel: "data/raw"
+  data_pdf_or_word: "data/raw"
+  vector_db: "storage/vector_db"
+  collection_name: "vn_enterprise_legal"
+
+memory:
+  chroma_path: "storage/mem0_chroma"
+  history_db_path: "storage/mem0_history.db"
+
+langsmith:
+  project: "vn_enterprise_legal"
+  endpoint: "https://api.smith.langchain.com"
+

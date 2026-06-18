@@ -1,0 +1,335 @@
+[
+  {
+    "query": "Các cơ sở ươm tạo và khu làm việc chung được hưởng những chính sách hỗ trợ nào về thuế và đất đai?",
+    "expected_doc_ids": [
+      "04/2017/QH14",
+      "80/2021/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Doanh nghiệp nhỏ và vừa được hưởng ưu đãi gì khi tham gia đấu thầu?",
+    "expected_doc_ids": [
+      "04/2017/QH14",
+      "22/2023/QH15",
+      "24/2024/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Nếu công ty giữ bản chính bằng cấp của nhân viên khi ký hợp đồng thì sẽ bị xử lý như thế nào và phải khắc phục ra sao?",
+    "expected_doc_ids": [
+      "45/2019/QH14",
+      "12/2022/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Hộ kinh doanh cần đáp ứng điều kiện gì để được hưởng hỗ trợ khi chuyển đổi thành doanh nghiệp nhỏ và vừa?",
+    "expected_doc_ids": [
+      "04/2017/QH14",
+      "80/2021/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Công ty nhỏ và vừa được hỗ trợ giá thuê mặt bằng sản xuất trong thời gian tối đa là bao lâu?",
+    "expected_doc_ids": [
+      "04/2017/QH14",
+      "80/2021/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Khi lập Báo cáo tài chính năm, công ty phải trình bày những thông tin chung nào về doanh nghiệp?",
+    "expected_doc_ids": [
+      "200/2014/TT-BTC",
+      "133/2016/TT-BTC"
+    ]
+  },
+  {
+    "query": "Nếu công ty chậm đóng bảo hiểm xã hội bắt buộc cho nhân viên thì sẽ bị xử phạt như thế nào?",
+    "expected_doc_ids": [
+      "58/2014/QH13",
+      "12/2022/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Doanh nghiệp nhỏ và vừa khởi nghiệp sáng tạo cần đáp ứng điều kiện nào để được hỗ trợ?",
+    "expected_doc_ids": [
+      "04/2017/QH14",
+      "80/2021/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Công ty sản xuất nhỏ và vừa tham gia chuỗi giá trị sẽ được hỗ trợ những nội dung gì?",
+    "expected_doc_ids": [
+      "04/2017/QH14",
+      "80/2021/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Quỹ phát triển doanh nghiệp nhỏ và vừa thực hiện những chức năng hỗ trợ gì cho doanh nghiệp?",
+    "expected_doc_ids": [
+      "04/2017/QH14",
+      "39/2019/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Để được xác định là doanh nghiệp nhỏ và vừa thì số lao động tham gia bảo hiểm xã hội bình quân năm tối đa là bao nhiêu người?",
+    "expected_doc_ids": [
+      "04/2017/QH14",
+      "80/2021/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Doanh nghiệp nhỏ và vừa có thể được hỗ trợ những gì để nâng cao khả năng tiếp cận tín dụng?",
+    "expected_doc_ids": [
+      "04/2017/QH14",
+      "80/2021/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Quỹ bảo lãnh tín dụng doanh nghiệp nhỏ và vừa căn cứ vào những điều kiện nào để cấp bảo lãnh cho công ty?",
+    "expected_doc_ids": [
+      "34/2018/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Khi nhận hỗ trợ từ Nhà nước, công ty nhỏ và vừa có trách nhiệm gì về nguồn lực đối ứng?",
+    "expected_doc_ids": [
+      "04/2017/QH14",
+      "80/2021/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Công ty nhỏ và vừa có thể nhận nguồn vốn hỗ trợ từ những nguồn nào?",
+    "expected_doc_ids": [
+      "04/2017/QH14"
+    ]
+  },
+  {
+    "query": "Khóa đào tạo trực tiếp về quản trị doanh nghiệp cho doanh nghiệp nhỏ và vừa bao gồm những loại khóa đào tạo nào?",
+    "expected_doc_ids": [
+      "80/2021/NĐ-CP",
+      "52/2023/TT-BTC"
+    ]
+  },
+  {
+    "query": "Bộ Tài chính có trách nhiệm hướng dẫn những nội dung gì về thuế và kế toán cho doanh nghiệp siêu nhỏ?",
+    "expected_doc_ids": [
+      "04/2017/QH14",
+      "132/2018/TT-BTC"
+    ]
+  },
+  {
+    "query": "Để được lựa chọn là doanh nghiệp nhỏ và vừa khởi nghiệp sáng tạo, công ty cần cung cấp những loại giấy chứng nhận giải thưởng nào?",
+    "expected_doc_ids": [
+      "80/2021/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Doanh nghiệp nhỏ và vừa được hỗ trợ tư vấn theo nội dung và mức hỗ trợ nào?",
+    "expected_doc_ids": [
+      "04/2017/QH14",
+      "80/2021/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Những hình thức doanh nghiệp nhỏ và vừa nào được lựa chọn để tham gia chuỗi giá trị sản xuất, chế biến?",
+    "expected_doc_ids": [
+      "80/2021/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Đối tượng nào được tham gia khóa đào tạo trực tiếp về khởi sự kinh doanh dành cho doanh nghiệp nhỏ và vừa?",
+    "expected_doc_ids": [
+      "80/2021/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Khi công ty nhận hỗ trợ tư vấn từ ngân sách nhà nước thì những chi phí nào của tư vấn viên được chi trả?",
+    "expected_doc_ids": [
+      "52/2023/TT-BTC",
+      "80/2021/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Hồ sơ đề xuất hỗ trợ doanh nghiệp nhỏ và vừa cần bao gồm những thành phần nào?",
+    "expected_doc_ids": [
+      "80/2021/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Mã số thuế của doanh nghiệp được quy định là mã số nào?",
+    "expected_doc_ids": [
+      "01/2021/NĐ-CP",
+      "38/2019/QH14"
+    ]
+  },
+  {
+    "query": "Trong trường hợp bất khả kháng, công ty được gia hạn nộp hồ sơ khai thuế theo tháng hoặc quý tối đa là bao nhiêu ngày?",
+    "expected_doc_ids": [
+      "38/2019/QH14"
+    ]
+  },
+  {
+    "query": "Khi công ty nộp thừa tiền thuế và tiền phạt thì được xử lý bằng những cách nào?",
+    "expected_doc_ids": [
+      "38/2019/QH14",
+      "80/2021/TT-BTC"
+    ]
+  },
+  {
+    "query": "Trong trường hợp nào thì doanh nghiệp bị Tòa án tuyên bố phá sản được xóa tiền thuế nợ?",
+    "expected_doc_ids": [
+      "38/2019/QH14"
+    ]
+  },
+  {
+    "query": "Hiện nay có những loại hóa đơn điện tử nào mà công ty có thể sử dụng?",
+    "expected_doc_ids": [
+      "123/2020/NĐ-CP",
+      "78/2021/TT-BTC"
+    ]
+  },
+  {
+    "query": "Trong những trường hợp nào thì cơ quan thuế sẽ thực hiện ấn định thuế đối với công ty?",
+    "expected_doc_ids": [
+      "38/2019/QH14"
+    ]
+  },
+  {
+    "query": "Khi công ty nợ thuế, cơ quan thuế có thể áp dụng những biện pháp cưỡng chế nào?",
+    "expected_doc_ids": [
+      "38/2019/QH14",
+      "126/2020/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Để cung cấp dịch vụ kế toán cho doanh nghiệp siêu nhỏ, tổ chức kinh doanh dịch vụ làm thủ tục về thuế cần điều kiện gì?",
+    "expected_doc_ids": [
+      "132/2018/TT-BTC",
+      "10/2021/TT-BTC"
+    ]
+  },
+  {
+    "query": "Trường hợp nào việc sử dụng dấu hiệu trùng với nhãn hiệu được bảo hộ bị coi là xâm phạm quyền đối với nhãn hiệu?",
+    "expected_doc_ids": [
+      "50/2005/QH11",
+      "11/2015/TT-BKHCN"
+    ]
+  },
+  {
+    "query": "Nếu công ty phát hiện người khác đang dùng sáng chế mình đã nộp đơn đăng ký để kinh doanh thì công ty có quyền làm gì?",
+    "expected_doc_ids": [
+      "50/2005/QH11"
+    ]
+  },
+  {
+    "query": "Công ty thuê lại lao động có bị phạt nếu không hướng dẫn cho người lao động thuê lại biết về nội quy lao động không?",
+    "expected_doc_ids": [
+      "45/2019/QH14",
+      "12/2022/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Nếu công ty không tổ chức khám sức khỏe định kỳ cho nhân viên thì sẽ bị xử phạt như thế nào?",
+    "expected_doc_ids": [
+      "84/2015/QH13",
+      "12/2022/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Công ty có bị phạt nếu không cho lao động nữ nghỉ 30 phút mỗi ngày trong thời gian hành kinh không?",
+    "expected_doc_ids": [
+      "45/2019/QH14",
+      "145/2020/NĐ-CP",
+      "12/2022/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Khi vi phạm hành chính trong lĩnh vực lao động và bảo hiểm xã hội, công ty sẽ bị áp dụng những hình thức xử phạt chính nào?",
+    "expected_doc_ids": [
+      "12/2022/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Nếu công ty sa thải nhân viên vì lý do tham gia đình công thì sẽ bị xử lý và phải khắc phục hậu quả như thế nào?",
+    "expected_doc_ids": [
+      "45/2019/QH14",
+      "12/2022/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Nếu công ty chậm đóng kinh phí công đoàn thì sẽ bị xử phạt và phải khắc phục hậu quả như thế nào?",
+    "expected_doc_ids": [
+      "12/2022/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Công ty có bị phạt nếu không trả sổ bảo hiểm xã hội cho nhân viên khi chấm dứt hợp đồng không?",
+    "expected_doc_ids": [
+      "45/2019/QH14",
+      "12/2022/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Hóa đơn khởi tạo từ máy tính tiền kết nối với cơ quan thuế có bắt buộc phải có chữ ký số không?",
+    "expected_doc_ids": [
+      "123/2020/NĐ-CP",
+      "78/2021/TT-BTC"
+    ]
+  },
+  {
+    "query": "Sau khi gửi đăng ký sử dụng hóa đơn điện tử, trong bao lâu thì cơ quan thuế sẽ gửi thông báo chấp nhận hoặc không chấp nhận?",
+    "expected_doc_ids": [
+      "123/2020/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Nếu công ty làm giả hồ sơ hưởng bảo hiểm xã hội để trục lợi thì sẽ bị xử phạt như thế nào?",
+    "expected_doc_ids": [
+      "100/2015/QH13",
+      "12/2022/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Khi phát hiện hóa đơn điện tử đã gửi cho khách hàng bị sai tên hoặc địa chỉ người mua thì công ty phải xử lý như thế nào?",
+    "expected_doc_ids": [
+      "123/2020/NĐ-CP",
+      "78/2021/TT-BTC"
+    ]
+  },
+  {
+    "query": "Khi mua hóa đơn do cơ quan thuế đặt in lần đầu, công ty cần chuẩn bị những giấy tờ gì?",
+    "expected_doc_ids": [
+      "123/2020/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Trong những trường hợp nào thì công ty bị buộc phải ngừng sử dụng hóa đơn điện tử?",
+    "expected_doc_ids": [
+      "123/2020/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Doanh nghiệp siêu nhỏ cần lập những loại sổ kế toán nào theo quy định?",
+    "expected_doc_ids": [
+      "132/2018/TT-BTC"
+    ]
+  },
+  {
+    "query": "Công ty khai thuế giá trị gia tăng theo phương pháp khấu trừ thì sử dụng loại hóa đơn nào?",
+    "expected_doc_ids": [
+      "123/2020/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Những chức danh nào của cơ quan thuế có thẩm quyền ra quyết định xử phạt vi phạm hành chính về thuế và hóa đơn?",
+    "expected_doc_ids": [
+      "125/2020/NĐ-CP"
+    ]
+  },
+  {
+    "query": "Thời hiệu thi hành quyết định xử phạt vi phạm hành chính về thuế và hóa đơn là bao lâu?",
+    "expected_doc_ids": [
+      "125/2020/NĐ-CP"
+    ]
+  }
+]

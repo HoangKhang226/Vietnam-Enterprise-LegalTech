@@ -24,6 +24,7 @@ class VectorDBManager:
         self.persist_dir.mkdir(parents=True, exist_ok=True)
         self._db_client = QdrantClient(path=str(self._qdrant_path))
         self._index = None
+        self._reranker = None
 
     def _get_embedding_dimension(self) -> int:
         return 1024  # bge-m3 dimension
@@ -127,10 +128,15 @@ class VectorDBManager:
         from llama_index.core.postprocessor import SentenceTransformerRerank
         from llama_index.core import QueryBundle
         
-        reranker = SentenceTransformerRerank(
-            model=settings.rag.reranker,
-            top_n=rerank_top_n
-        )
-        
-        reranked_nodes = reranker.postprocess_nodes(nodes, query_bundle=QueryBundle(query_str=query))
+        # Initialize reranker lazily and cache it to prevent OOM when multi-threading
+        if self._reranker is None:
+            self._reranker = SentenceTransformerRerank(
+                model=settings.rag.reranker,
+                top_n=rerank_top_n
+            )
+        else:
+            # Update top_n dynamically if needed
+            self._reranker.top_n = rerank_top_n
+            
+        reranked_nodes = self._reranker.postprocess_nodes(nodes, query_bundle=QueryBundle(query_str=query))
         return reranked_nodes

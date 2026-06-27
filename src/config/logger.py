@@ -4,7 +4,7 @@ from pathlib import Path
 import yaml
 
 _PROJECT_ROOT = Path(__file__).parent.parent.parent
-_LOG_FILE = _PROJECT_ROOT / "config" / "logging.yaml"
+_LOG_FILE = _PROJECT_ROOT / "config"/ "logging.yaml"
 _LOGGING_DIR = _PROJECT_ROOT / "logs"
 
 

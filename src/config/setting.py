@@ -7,7 +7,7 @@ import yaml
 from src.config.logger import logger
 
 _PROJECT_ROOT = Path(__file__).parent.parent.parent
-_SETTING_FILE = _PROJECT_ROOT / "config" / "setting.yaml"
+_SETTING_FILE = _PROJECT_ROOT / "config"/ "setting.yaml"
 
 
 class GeminiConfig(BaseModel):

@@ -1,3 +1,4 @@
+from src.config.logger import logger
 import logging
 from typing import List, Dict, Any
 from src.agents.state import ChatState
@@ -47,8 +48,8 @@ def retriever_node(state: ChatState) -> ChatState:
     
     # 1. Thu thập câu hỏi cần tìm kiếm
     if state.get("sub_queries") and len(state["sub_queries"]) > 0:
-        logger.info(f"Phát hiện {len(state['sub_queries'])} sub_queries từ Decomposer Node. Sẽ chạy Hybrid Search đa luồng.")
-        queries_to_run = state["sub_queries"]
+        logger.info(f"Phát hiện {len(state['sub_queries'])} sub_queries từ Decomposer Node. Sẽ chạy Hybrid Search bằng cả câu gốc và các câu nhỏ.")
+        queries_to_run = [state.get("question", "")] + state["sub_queries"]
     else:
         logger.info("Không có sub_queries, chạy Hybrid Search cho câu hỏi gốc.")
         queries_to_run = [state.get("question", "")]

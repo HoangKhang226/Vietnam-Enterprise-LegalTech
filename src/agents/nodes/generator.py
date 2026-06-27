@@ -1,3 +1,4 @@
+from src.config.logger import logger
 import logging
 from langchain_core.prompts import ChatPromptTemplate
 from src.agents.state import ChatState
@@ -41,7 +42,7 @@ def generator_node(state: ChatState) -> ChatState:
     logger.info("Luồng RAG: Sinh câu trả lời dựa trên Context (VectorDB / Web Search).")
     context_str = "\n".join(relevant_docs) if relevant_docs else "Không có tài liệu tham chiếu."
 
-    web_warning = "LƯU Ý: Một phần dữ liệu được lấy từ Web Search. Hãy chèn câu cảnh báo '(Nguồn tham khảo từ Internet)' vào cuối đáp án." if web_search_used else ""
+    web_warning = "LƯU Ý: Một phần dữ liệu được lấy từ Web Search. Hãy chèn câu cảnh báo '(Nguồn tham khảo từ Internet)'vào cuối đáp án."if web_search_used else ""
 
     prompt = ChatPromptTemplate.from_messages([
         ("system", GENERATOR_RAG_PROMPT),

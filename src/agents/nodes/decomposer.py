@@ -1,3 +1,4 @@
+from src.config.logger import logger
 import logging
 from typing import List
 from pydantic import BaseModel, Field
@@ -47,7 +48,7 @@ def decomposer_node(state: ChatState) -> ChatState:
             
         logger.info(f"Đã phân rã thành {len(sub_queries)} sub-queries:")
         for idx, sq in enumerate(sub_queries):
-            logger.info(f"  {idx+1}. {sq}")
+            logger.info(f" {idx+1}. {sq}")
             
         state["sub_queries"] = sub_queries
         

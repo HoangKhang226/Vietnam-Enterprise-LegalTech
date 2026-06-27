@@ -1,3 +1,4 @@
+from src.config.logger import logger
 import logging
 from typing import List
 from pydantic import BaseModel, Field
@@ -16,7 +17,7 @@ class AuditResult(BaseModel):
 def auditor_node(state: ChatState) -> ChatState:
     """
     Auditor Node:
-    Đóng vai trò "Thanh tra" rà soát lỗi Hallucination của Generator.
+    Đóng vai trò "Thanh tra"rà soát lỗi Hallucination của Generator.
     Kiểm tra xem các trích dẫn trong câu trả lời có khớp với Context không.
     """
     logger.info("--- ĐANG XỬ LÝ AUDITOR NODE ---")
@@ -25,7 +26,7 @@ def auditor_node(state: ChatState) -> ChatState:
     draft_answer = state.get("draft_answer", "")
     relevant_docs = state.get("relevant_docs", [])
     
-    if query_type == "chitchat" or not draft_answer:
+    if query_type == "chitchat"or not draft_answer:
         logger.info("Bỏ qua rà soát vì là chitchat hoặc không có bản nháp.")
         state["final_answer"] = draft_answer
         return state

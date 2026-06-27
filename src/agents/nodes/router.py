@@ -1,3 +1,4 @@
+from src.config.logger import logger
 import os
 import joblib
 import logging

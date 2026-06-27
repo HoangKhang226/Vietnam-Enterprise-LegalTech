@@ -4,7 +4,8 @@ LlamaIndex Qdrant VectorDBManager (Ported from Chat With Data)
 from pathlib import Path
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams
-from llama_index.core import StorageContext, VectorStoreIndex, load_index_from_storage
+from llama_index.core import StorageContext, VectorStoreIndex, load_index_from_storage, Document
+from llama_index.core.schema import TextNode
 from llama_index.vector_stores.qdrant import QdrantVectorStore
 from llama_index.core.retrievers import QueryFusionRetriever
 from llama_index.retrievers.bm25 import BM25Retriever
@@ -81,13 +82,74 @@ class VectorDBManager:
             logger.warning(f"Error loading index: {e}")
             return None
 
+    def add_documents(self, nodes: list[TextNode], show_progress: bool = True, batch_size: int = 512):
+        self._index = self.get_index()
+        if self._index is None:
+            logger.info("Reconnecting to Qdrant without wiping data...")
+            storage_context = self._get_storage_context()
+            self._index = VectorStoreIndex.from_vector_store(
+                vector_store=storage_context.vector_store,
+                storage_context=storage_context,
+                embed_model=self.embedding_model,
+            )
+        
+        # Determine existing nodes to skip
+        existing_ids = set()
+        if self._collection_exists():
+            logger.info("Scanning Qdrant for existing nodes to skip...")
+            all_ids = [n.node_id for n in nodes]
+            for i in range(0, len(all_ids), 1000):
+                batch_ids = all_ids[i:i+1000]
+                try:
+                    res = self._db_client.retrieve(
+                        collection_name=self.collection_name, 
+                        ids=batch_ids, 
+                        with_payload=False, 
+                        with_vectors=False
+                    )
+                    existing_ids.update([p.id for p in res])
+                except Exception:
+                    pass
+            logger.info(f"Found {len(existing_ids)} nodes already safely stored in Qdrant.")
+
+        new_nodes = [node for node in nodes if node.node_id not in existing_ids]
+        if not new_nodes:
+            logger.info("All nodes already exist in index")
+            return [node.node_id for node in nodes]
+
+        logger.info(f"Inserting {len(new_nodes)} new nodes in batches...")
+        for start in range(0, len(new_nodes), batch_size):
+            batch = new_nodes[start : start + batch_size]
+            self._index.insert_nodes(batch, show_progress=show_progress)
+            
+            # Persist docstore periodically
+            if (start + batch_size) % 1000 < batch_size or (start + batch_size) >= len(new_nodes):
+                try:
+                    self._index.storage_context.persist(persist_dir=str(self.persist_dir))
+                except Exception:
+                    pass
+        
+        try:
+            self._index.storage_context.persist(persist_dir=str(self.persist_dir))
+        except Exception:
+            pass
+        logger.info(f"Index persisted to {self.persist_dir}")
+        return [n.node_id for n in nodes]
+
     def get_hybrid_retriever(self, similarity_top_k: int = 10, num_queries: int = 1):
+        if getattr(self, '_hybrid_retriever', None) is not None:
+            # Update top_k dynamically if needed
+            self._hybrid_retriever.similarity_top_k = similarity_top_k
+            for retriever in getattr(self._hybrid_retriever, 'retrievers', getattr(self._hybrid_retriever, '_retrievers', [])):
+                if hasattr(retriever, 'similarity_top_k'):
+                    retriever.similarity_top_k = similarity_top_k
+            return self._hybrid_retriever
+
         index = self.get_index()
         if index is None:
             logger.error("Cannot build hybrid retriever — index is empty.")
             return None
 
-        # Lấy nodes trực tiếp từ storage_context vì VectorStoreIndex có thể không giữ docstore
         storage_context = self._get_storage_context()
         all_nodes = list(storage_context.docstore.docs.values())
         
@@ -97,7 +159,7 @@ class VectorDBManager:
 
         vector_retriever = index.as_retriever(similarity_top_k=similarity_top_k)
         
-        # Initialize BM25 with our custom legal tokenizer
+        logger.info("Building BM25 Index (This only happens once)...")
         bm25_retriever = BM25Retriever.from_defaults(
             nodes=all_nodes,
             similarity_top_k=similarity_top_k,
@@ -105,7 +167,7 @@ class VectorDBManager:
         )
 
         logger.info("Initialising Hybrid Retriever (BM25 + Vector / RRF)...")
-        hybrid_retriever = QueryFusionRetriever(
+        self._hybrid_retriever = QueryFusionRetriever(
             retrievers=[vector_retriever, bm25_retriever],
             similarity_top_k=similarity_top_k,
             num_queries=num_queries,
@@ -113,7 +175,7 @@ class VectorDBManager:
             use_async=False,
             llm=MockLLM()
         )
-        return hybrid_retriever
+        return self._hybrid_retriever
 
     def retrieve_with_rerank(self, query: str, retrieve_top_k: int = 25, rerank_top_n: int = 3):
         """
@@ -140,3 +202,21 @@ class VectorDBManager:
             
         reranked_nodes = self._reranker.postprocess_nodes(nodes, query_bundle=QueryBundle(query_str=query))
         return reranked_nodes
+
+def chunks_to_nodes(chunks: list[dict]) -> list[TextNode]:
+    import uuid
+    import hashlib
+    nodes = []
+    for chunk in chunks:
+        # Generate a deterministic valid UUID from the string chunk_id
+        chunk_uuid = str(uuid.UUID(hashlib.md5(chunk["chunk_id"].encode("utf-8")).hexdigest()))
+        metadata = chunk.get("metadata", {}).copy()
+        metadata["original_chunk_id"] = chunk["chunk_id"]
+        
+        node = TextNode(
+            text=chunk["text"],
+            id_=chunk_uuid,
+            metadata=metadata,
+        )
+        nodes.append(node)
+    return nodes

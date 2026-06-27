@@ -1,3 +1,4 @@
+from src.config.logger import logger
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -19,7 +20,7 @@ DATASET_PATH = Path(__file__).parent / "dataset_evaluate_rag.json"
 
 def load_ground_truth() -> Dict[str, List[str]]:
     if not DATASET_PATH.exists():
-        print(f"Lỗi: Không tìm thấy file {DATASET_PATH}")
+        logger.info(f"Lỗi: Không tìm thấy file {DATASET_PATH}")
         return {}
         
     with open(DATASET_PATH, "r", encoding="utf-8") as f:
@@ -28,7 +29,7 @@ def load_ground_truth() -> Dict[str, List[str]]:
     return {item["query"]: item["expected_doc_ids"] for item in data}
 
 def evaluate_retriever_no_llm():
-    print("🚀 Khởi tạo Retrieval Pipeline để đánh giá...")
+    logger.info("Khởi tạo Retrieval Pipeline để đánh giá...")
     
     # Bỏ qua LLM, load Embedding
     from llama_index.embeddings.huggingface import HuggingFaceEmbedding
@@ -42,7 +43,7 @@ def evaluate_retriever_no_llm():
         MRR()      # Mean Reciprocal Rank: Thứ hạng trung bình của Document đúng đầu tiên
     ]
     
-    print("📊 Bắt đầu đánh giá với tập Ground Truth...")
+    logger.info("Bắt đầu đánh giá với tập Ground Truth...")
     results = []
     
     ground_truth = load_ground_truth()
@@ -50,7 +51,7 @@ def evaluate_retriever_no_llm():
         return
         
     for query, expected_ids in ground_truth.items():
-        print(f"Đang đánh giá câu hỏi: '{query}'")
+        logger.info(f"Đang đánh giá câu hỏi: '{query}'")
         
         # Gọi retriever thực tế
         retrieved_nodes = vector_db.retrieve_with_rerank(query, retrieve_top_k=20, rerank_top_n=3)
@@ -77,14 +78,14 @@ def evaluate_retriever_no_llm():
     # Tổng hợp kết quả
     df = pd.DataFrame(results)
     
-    print("\n" + "="*50)
-    print("🎯 KẾT QUẢ ĐÁNH GIÁ (DETERMINISTIC EVALUATION)")
-    print("="*50)
-    print(df.to_string(index=False))
+    logger.info("\n"+ "="*50)
+    logger.info("KẾT QUẢ ĐÁNH GIÁ (DETERMINISTIC EVALUATION)")
+    logger.info("="*50)
+    logger.info(df.to_string(index=False))
     
-    print("\nTổng quan toàn hệ thống:")
-    print(f"Average Hit Rate (Top-5): {df['Hit Rate'].mean():.2f}")
-    print(f"Mean Reciprocal Rank (MRR): {df['MRR'].mean():.2f}")
+    logger.info("\nTổng quan toàn hệ thống:")
+    logger.info(f"Average Hit Rate (Top-5): {df['Hit Rate'].mean():.2f}")
+    logger.info(f"Mean Reciprocal Rank (MRR): {df['MRR'].mean():.2f}")
 
 if __name__ == "__main__":
     evaluate_retriever_no_llm()

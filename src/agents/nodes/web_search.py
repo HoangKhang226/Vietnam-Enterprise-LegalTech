@@ -1,3 +1,4 @@
+from src.config.logger import logger
 import logging
 from src.agents.state import ChatState
 from langchain_community.tools.tavily_search import TavilySearchResults
@@ -23,9 +24,9 @@ def web_search_node(state: ChatState) -> ChatState:
     if not contexts:
         needs_search = True
     else:
-        # Nếu điểm cao nhất của các chunk nội bộ < 0.5 -> Ngữ cảnh yếu, cần search web bổ trợ
+        # Nếu điểm cao nhất của các chunk nội bộ < 0.4 -> Ngữ cảnh yếu, cần search web bổ trợ
         best_score = max([c.get("score", 0) for c in contexts]) if contexts else 0
-        if best_score < 0.5:
+        if best_score < 0.4:
             needs_search = True
             
     if not needs_search:
@@ -35,12 +36,17 @@ def web_search_node(state: ChatState) -> ChatState:
     logger.info("Ngữ cảnh nội bộ yếu hoặc trống. Đang kích hoạt Tavily Search API...")
     state["web_search_used"] = True
     
+    import os
+    if not os.environ.get("TAVILY_API_KEY"):
+        logger.warning("Không tìm thấy TAVILY_API_KEY. Bỏ qua Web Search.")
+        return state
+    
     try:
         # Tavily trả về cấu trúc mảng dict gọn gàng
         search = TavilySearchResults(max_results=3)
         query = state.get("question", "")
         
-        web_result = search.invoke({"query": query + " quy định pháp luật Việt Nam hiện hành"})
+        web_result = search.invoke({"query": query + "quy định pháp luật Việt Nam hiện hành"})
         
         # Nối kết quả web vào chung với relevant_docs
         web_docs = state.get("relevant_docs", [])

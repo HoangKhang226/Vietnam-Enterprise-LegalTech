@@ -116,6 +116,6 @@ class RetrieverEngine:
                 source_id = node.metadata.get("source_id", f"{doc_id}|{article}")
                 
                 formatted_str += f"- Nội dung {article}: {chunk_text}\n"
-                formatted_str += f"  [TRÍCH DẪN HỢP LỆ]: {source_id}\n\n"
+                formatted_str += f" [TRÍCH DẪN HỢP LỆ]: {source_id}\n\n"
                 
         return formatted_str.strip()

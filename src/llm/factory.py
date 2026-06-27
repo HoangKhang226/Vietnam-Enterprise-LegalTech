@@ -51,7 +51,7 @@ class LLMFactory:
                 base_url=settings.ollama.base_url
             )
         else:
-            raise ValueError(f"Unknown LLM provider: '{provider}'. Use 'gemini' or 'ollama'.")
+            raise ValueError(f"Unknown LLM provider: '{provider}'. Use 'gemini'or 'ollama'.")
 
 def get_llm_provider(purpose: str = "rag", provider: str = None) -> BaseChatModel:
     """Convenience helper to get a pre-configured LangChain LLM instance."""

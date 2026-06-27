@@ -1,3 +1,4 @@
+from src.config.logger import logger
 import json
 
 new_gold_standard = [
@@ -222,4 +223,4 @@ for item in new_gold_standard:
 with open(dataset_path, 'w', encoding='utf-8') as f:
     json.dump(existing_data, f, ensure_ascii=False, indent=2)
 
-print(f"Đã thêm thành công {added_count} câu hỏi vào Gold Standard Dataset. Tổng số: {len(existing_data)} câu.")
+logger.info(f"Đã thêm thành công {added_count} câu hỏi vào Gold Standard Dataset. Tổng số: {len(existing_data)} câu.")

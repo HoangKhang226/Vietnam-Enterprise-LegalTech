@@ -6,7 +6,7 @@ class ChatState(TypedDict):
     chat_history: List[dict]               # Lịch sử hội thoại [{role, content}, ...]
     
     # --- Decomposition (MỚI) ---
-    query_type: str                        # "simple_query" | "complex_query" | "chitchat"
+    query_type: str                        # "simple_query"| "complex_query"| "chitchat"
     sub_queries: List[str]                 # Các câu hỏi nhỏ được tách ra từ câu gốc
     
     # --- Retrieval ---

@@ -1,3 +1,4 @@
+from src.config.logger import logger
 import logging
 from langgraph.graph import StateGraph, END
 

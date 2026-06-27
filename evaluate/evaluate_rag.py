@@ -1,3 +1,4 @@
+from src.config.logger import logger
 import json
 import os
 import sys
@@ -33,13 +34,13 @@ from src.config.setting import settings
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
 def main():
-    print(f"🚀 Khởi tạo RAGAS Evaluator với Local Ollama ({settings.ollama.model})...")
+    logger.info(f"Khởi tạo RAGAS Evaluator với Local Ollama ({settings.ollama.model})...")
     
     # RAGAS yêu cầu Langchain LLM và Embeddings để làm Giám khảo (Judge)
     judge_llm = Ollama(model=settings.ollama.model, base_url=settings.ollama.base_url)
     judge_embeddings = OllamaEmbeddings(model=settings.ollama.embed_model, base_url=settings.ollama.base_url)
     
-    print("📦 Khởi tạo Hybrid Retriever...")
+    logger.info("Khởi tạo Hybrid Retriever...")
     embed_model = HuggingFaceEmbedding(model_name=settings.embedding.huggingface)
     vector_db = VectorDBManager(embed_model)
     
@@ -61,21 +62,21 @@ def main():
     if checkpoint_file.exists():
         with open(checkpoint_file, "r", encoding="utf-8") as f:
             retrieved_data = json.load(f)
-            print(f"♻️ Đã khôi phục {len(retrieved_data)} câu hỏi từ Checkpoint Retrieval...")
+            logger.info(f"Đã khôi phục {len(retrieved_data)} câu hỏi từ Checkpoint Retrieval...")
 
     # Lọc ra những câu chưa được tìm kiếm
     pending_items = [item for item in test_data if item["query"] not in retrieved_data]
     
     if pending_items:
-        print(f"🔍 Đang truy xuất tài liệu cho {len(pending_items)} câu hỏi mới (Chạy SONG SONG)...")
-        MAX_WORKERS = 10
+        logger.info(f"Đang truy xuất tài liệu cho {len(pending_items)} câu hỏi mới (Chạy SONG SONG)...")
+        MAX_WORKERS = 1
         import concurrent.futures
         
         def retrieve_for_item(item):
             q = item["query"]
             expected_ids = item["expected_doc_ids"]
             nodes = vector_db.retrieve_with_rerank(q, retrieve_top_k=20, rerank_top_n=3)
-            contexts = [f"Mã văn bản (Doc ID): {n.metadata.get('doc_id', 'Unknown')}\nNội dung: {n.node.text}" for n in nodes]
+            contexts = [f"Mã văn bản (Doc ID): {n.metadata.get('doc_id', 'Unknown')}\nNội dung: {n.node.text}"for n in nodes]
             gt_string = item.get("expected_answer", f"Các mã văn bản đúng là: {', '.join(expected_ids)}")
             return q, gt_string, contexts
 
@@ -96,7 +97,7 @@ def main():
                     json.dump(retrieved_data, f, ensure_ascii=False, indent=2)
                 
                 completed += 1
-                print(f"[{completed}/{total}] Đã tìm xong tài liệu cho câu: {q[:50]}...")
+                logger.info(f"[{completed}/{total}] Đã tìm xong tài liệu cho câu: {q[:50]}...")
 
     # ==========================================
     # 2. RAGAS BATCHING CHECKPOINT (Chấm điểm)
@@ -116,7 +117,7 @@ def main():
     from ragas.run_config import RunConfig
     import pandas as pd
     
-    run_config = RunConfig(timeout=600, max_retries=2, max_workers=10)
+    run_config = RunConfig(timeout=600, max_retries=2, max_workers=2)
     
     BATCH_SIZE = 10 # Cứ 10 câu lưu 1 lần
     total_batches = (len(questions) + BATCH_SIZE - 1) // BATCH_SIZE
@@ -127,9 +128,9 @@ def main():
     if final_csv_path.exists():
         old_df = pd.read_csv(final_csv_path)
         evaluated_questions = set(old_df["user_input"].tolist())
-        print(f"♻️ Đã khôi phục điểm của {len(evaluated_questions)} câu từ file CSV...")
+        logger.info(f"Đã khôi phục điểm của {len(evaluated_questions)} câu từ file CSV...")
     
-    print(f"\n📊 Bắt đầu chấm {len(questions)} câu bằng RAGAS (Chia thành {total_batches} Batch)...")
+    logger.info(f"\n Bắt đầu chấm {len(questions)} câu bằng RAGAS (Chia thành {total_batches} Batch)...")
     
     for i in range(total_batches):
         start_idx = i * BATCH_SIZE
@@ -141,7 +142,7 @@ def main():
         if all(q in evaluated_questions for q in batch_q):
             continue
             
-        print(f"\n▶️ Đang chấm Batch {i+1}/{total_batches}...")
+        logger.info(f"\n Đang chấm Batch {i+1}/{total_batches}...")
         
         batch_dict = {
             "user_input": batch_q,
@@ -169,12 +170,12 @@ def main():
             batch_df.to_csv(final_csv_path, mode='a', header=False, index=False, encoding='utf-8-sig')
             
         evaluated_questions.update(batch_q)
-        print(f"✅ Đã lưu kết quả Batch {i+1} vào {final_csv_path}")
+        logger.info(f"Đã lưu kết quả Batch {i+1} vào {final_csv_path}")
 
-    print("\n=======================================================")
-    print(f"🎉 ĐÁNH GIÁ HOÀN TẤT Toàn Bộ Hệ Thống RAG!")
-    print(f"📁 Bạn có thể tải file kết quả tại: {final_csv_path}")
-    print("=======================================================")
+    logger.info("\n=======================================================")
+    logger.info(f"🎉 ĐÁNH GIÁ HOÀN TẤT Toàn Bộ Hệ Thống RAG!")
+    logger.info(f"📁 Bạn có thể tải file kết quả tại: {final_csv_path}")
+    logger.info("=======================================================")
 
 if __name__ == "__main__":
     main()

@@ -43,4 +43,3 @@ memory:
 langsmith:
   project: "vn_enterprise_legal"
   endpoint: "https://api.smith.langchain.com"
-

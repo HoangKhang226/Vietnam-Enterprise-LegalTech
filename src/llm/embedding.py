@@ -42,5 +42,5 @@ class EmbeddingFactory:
             )
         else:
             raise ValueError(
-                f"Provider {provider} not supported. Use 'google' or 'ollama'."
+                f"Provider {provider} not supported. Use 'google'or 'ollama'."
             )
